@@ -1,0 +1,4275 @@
+-- Sub to PandaExploits
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(105, 105, 105)
+Frame.BackgroundTransparency = 0.10
+Frame.Position = UDim2.new(0.858712733, 0, 0.0237762257, 0)
+Frame.Size = UDim2.new(0.1, 0.15, 0.15, 0.15)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(105, 105, 105)
+TextButton.BackgroundTransparency = 0.10
+TextButton.Size = UDim2.new(1, 0, 1, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Open/Close"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 50.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+TextButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, "F4" , false , game)
+    end)
+
+UITextSizeConstraint.Parent = TextButton
+UITextSizeConstraint.MaxTextSize = 50
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("🎹Auto Piano V3.2🎹","F4") -- change "LeftAlt" to key that you want will hide gui
+
+local Tab = Window.NewTab("Modern")
+local Section = Tab.NewSection("Modern and memes")
+
+local Button = Section.NewButton("Elevator jam - DOORS OST",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.01 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [@Y]-[IP] @ [$Y] [IP]-[$Y] 
+@ [IP]-[@Y] ^ Y [IP] ^ 
+[!T]-[iO] ! [4T] [iO]-[4T] 
+! [iO]-[!T] % T [iO] % 
+[7r]-[YI] 7 [@r] [YI]-[@r] 
+7 [YI]-[7r] $ r [YI] $ 
+[^E]-[yP] ^ [2E] [yP]-[2E] 
+^ [yi]-[^E] 4 [ED] [yiG] [4H] 
+[@YDGJ]-[IP] @ [$Y] [IP]-[$Y] 
+@ [IPH]-[@YG]g[^H] Y [IPG] ^ 
+[!TOSg]Dg [iO] ! [4T] [iO]-[4T] 
+! [iOG]-[!Tg]D[%G] T [Oig] % 
+[7raID]Sa [YI] 7 [@r] [YI]-[@r] 
+7 [YI]-[7r] $ [ra] [YIS] [$D] 
+[^Eg]-[yP] ^ [2EH] [yP]-[2E] 
+[^G] [yi]-[^E] [4d] E [yi] 4 
+[@YD]-[IP] @ [$I] [Os]-[$I] 
+% [PS]-[%Y] [4i] E i 4 
+[(YI] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Bones - Imagine Dragons",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.060 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [^?]----
+[i*ETS] SSSS[i*ETS] S P [*ETi]-
+[8qtis] ssss[8qtis] s p [8qti]-
+[%(WYOs] ssss[%(WYOs] s O [t%(WY]-
+[@^(]--[@^(]--[@^(]-
+[i*ETS] SSSS[i*ETS] S P [*ETi]-
+[8qtis] ssss[8qtis] s p [8qti]-
+[%(WYOs] ssss[%(WYOs] s O [t%(WY]-
+[@^(]--[@^(]--[@^(] [Osg] 
+[i*ETPD]-[PSig][*ET] [PSig] [i*ETPD]-[PSig][*ET] [PSig] 
+[8qtpsg]-[psg][8qt] [psg] [8qtpsD]-[psg][8qt] [psg] 
+[s%(WOD]-[Osg][%(W] [Osg] [s%(WOD]-[Osg][%(W] [Osg] 
+[48qH]-g[48q] g [48qD]-g[48q]-
+[i^P] [qS] [iEP] [qS] [^Pig] q [iEPD] [qS] 
+[4psD] [8D]D[qD] [8psD] [4g] 8 [qD] [8S] 
+[s%OD] [(D]D[WD] [s(OD] [%g] ( [WD] [(S] 
+[5oD] [(D]D[wD] [(P] [5oS] ( [wP] [(P] 
+[i^P] [qS] [iEP] [qS] [^Pig] q [iEPD] [qS] 
+[4psD] [8D]D[qD] [8psD] [4g] 8 [qD] [8S] 
+[s%OD] [(D]D[WD] [s(OD] [%g] ( [WD] [(S] 
+[5oD] [(D]D[wD] [(P] [5oS] ( w ( 
+[i!*TS] SS[*ETS]S[iTS] [!*S] P [*ETi]-
+[18tis] ss[8qts]s[tis] [18s] p [8qti]-
+[%YOs] ss[%(Ws]s[YOs] [%s] O [t%(WY]-
+@-[@^(]-@-[@^(]-
+[i!*TS] SS[*ETS]S[iTS] [!*S] P [*ETi]-
+[18tis] ss[8qts]s[tis] [18s] S [8qt] s 
+[o%D] DD[o%(WD] S [%g] D [o%(WD]-
+[o@D] DD[o@^(D] S [@g] D [o@^(D] [Osg] 
+[i*ETPD]-[PSig][*ET] [PSig] [i*ETPD]-[PSig][*ET] [PSig] 
+[8qtpsg]-[psg][8qt] [psg] [8qtpsD]-[psg][8qt] [psg] 
+[s%(WOD]-[Osg][%(W] [Osg] [s%(WOD]-[Osg][%(W] [Osg] 
+[48qH]-g[48q] g [48qD]-g[48q]-
+[i^P] [qS] [iEP] [qS] [^Pig] q [iEPD] [qS] 
+[4psD] [8D]D[qD] [8psD] [4g] 8 [qD] [8S] 
+[s%OD] [(D]D[WD] [s(OD] [%g] ( [WD] [(S] 
+[5oD] [(D]D[wD] [(P] [5oS] ( [wP] [(P] 
+[i^P] [qS] [iEP] [qS] [^Pig] q [iEPD] [qS] 
+[4psD] [8D]D[qD] [8psD] [4g] 8 [qD] [8S] 
+[s%OD] [(D]D[WD] [s(OD] [%g] ( [WD] [(S] 
+[5oD] [(D]D[wD] [(P] [5oS] [(S] [ws] [(P] 
+[^ETi] * [^ETi] * [^ETi] * [^ETi] [*P] 
+[4eti] 6 [4eti] 6 [4eti] [6s] [4P] [6i] 
+[%Yti] 8 [%Yti] 8 [%Yti] 8 [o%D] [8D] 
+[5oD] [(D]D[woD] [(P] [5oS] ( [wi]i[(i][iTS]
+[!*]s s[*ET]P [iTP][!*]-P[*ETP]P[Ois] 
+[18] P [8qtP] p [18tip]-[8qtP]PP[psg]
+% D [%(WYOS] S [%s] s [%(WYOs] s 
+[o@YS] s[YP][@^(]-@-[@^(i] i[iTS]
+[!*]s s[*ET]P [iTP][!*]-P[*ETP]P[Ois] 
+[18] P [8qtP] p [18tip]-[8qtP]PP[psg]
+% D [%(WYOS] S [%s] s [%(WYOs] s 
+[o@YS] s[YP][@^(]-@-[@^(] [Wti] 
+[q!^*EY]-[ETqi]-[ETqi] [qEY]-[ETqi]-[ETqi] 
+[148eti]-[eti]-[eti] [etY]-[eti]-[eti] 
+[t@%WY]-[Wti]-[Wti] [tWY]-[Wti]-[gPJ] 
+[gPJ]-[gPJ]-[gPJ] [gSL]-[gPJ]--
+[i^P]E[qS]i[i^P]E[qS]i[^Pig]Eqi[i^PD]E[qS]i
+[4psD]q[8D][tD][4D]q[8psD]t[4g]q8t[4D]q[8S]t
+[s%OD]W[(D][YD][%D]W[s(OD]Y[%g]W(Y[%D]W[(S]Y
+[5oD]w[(D][YD][5D]w[(P]Y[5oS]w(Y[5P]w[(P]Y
+[i^P]E[qS]i[i^P]E[qS]i[^Pig]Eqi[i^PD]E[qS]i
+[4psD]q[8D][tD][4D]q[8psD]t[4g]q8t[4D]q[8S]t
+[s%OD]W[(D][YD][%D]W[s(OD]Y[%g]W(Y[%D]W[(S]Y
+[5oD]w[(D][YD][5D]w[(P]Y[5oS]w[(S]Y[5oS]w[(os]Y
+[^ETi]Eqi^Eqi^Eqi[i^TP]Eqi
+[ET4i]q8t4q8t4q[8s]t[4s]q[8iTP]t
+[^ETi]E[qI]i[^ETi]Eqi^Eqi^Eqi
+5w(Y[5oS]w(Y[5oS]w(Y[5os]w(Y
+[^ETi]Eqi^Eqi^Eqi[i^TP]Eqi
+[ET4i]q8t4q8t4q[8s]t[4s]q[8iTP]t
+[^ETi]E[qI]i[^ETi]Eqi^Eqi[^D]E[qD]i
+[5oPD]w[(D][YD][5D]w[o(YP]Y[5oPS] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("ABCDEFU - Gayle",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.1 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ O 
+[O3ua] O O u O O 
+[%YOa] Y O O Y u u 
+[u!TO] u u T r 
+[T6rup] r u u O 
+[O3ua] O O u O O 
+[%YOa] Y O O Y u u 
+[u!TO] T u u u T r 
+[T6rup] u u 
+[O3ua] u u u u u u O 
+[%YOa] Y T Y u 
+[u!TO] u u u u u I 
+[TY6up] Y T Y W 
+[O3ua] u u u u u I 
+[%YOa] Y T Y u r 
+[u!TO] r T r T r T r 
+[T6up] e r 
+[O3ua] u u u u u I Y 
+[%YOa] Y Y T Y u 
+[u!TO] u u u u u I Y 
+[T6up] T Y T Y r W 
+[O3ua] u u u u u I Y 
+[%YOa] Y Y T Y u r 
+[u!TO] r T r T r T r 
+[T6up] e 
+[O3ua] u u u O a 
+[%YOa] a a a a S O 
+[u!TO] I u p 
+[T6up] p p O I u 
+[O3ua] u u u u O a 
+[%YOa] O a O a S O 
+[u!TO] O O 
+O O O O 
+[O3ua] O O u O O 
+[t%YO] Y O O Y u u 
+[u!TO] u u T r 
+[6rupa] r u u O 
+[O3ua] O O u O O 
+[t%YO] Y O O Y u u 
+[u!TO] T u u u T r 
+[6rupa] u u 
+[O3ua] u I O a 
+[%YOa] a a S O 
+[u!TO] O O 
+[O6upa] O O O 
+[O3ua] u u u u u I Y 
+[%YOa] Y Y T Y u 
+[u!TO] r u u u u I Y 
+[T6up] T Y T Y T r W 
+[O3ua] u u u u u I Y 
+[%YOa] Y Y T Y u 
+[u!TO] r T r T r T r 
+[T6up] e 
+[O3ua] u u u O a 
+[%YOa] a a a a S O 
+[u!TO] I u p 
+[T6up] p p O I u 
+[O3ua] u u u u O a 
+[%YOa] O a O a S O 
+[u!TO] O O 
+[TO6up] O O O 
+[O3ua] O O u O O 
+[t%YO] Y O O Y u u 
+[u!TO] u u T r 
+[6rupa] r u u O 
+[O3ua] O O u O O 
+[t%YO] Y O O Y u u 
+[u!TO] T u u u T r 
+[6rupa] u u 
+[O3ua] u I O a 
+[t%YO] a a S O 
+[u!TO] O O 
+[O6upa] O O O 
+[O3ua] u I O a 
+[t%YO] a a a S O 
+[u!TO] O O 
+[O6upa] O O O 
+[O3ua] O O u O O 
+[%YOa] Y O O Y u u 
+[u!TO] u u T r 
+[T6rup] r u u O 
+[O3ua] O O u O O 
+[%YOa] Y O O Y u u 
+[u!TO] T u u u S a 
+[T6upa] O O I u  ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Toxic - BoyWithUke",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ a a a a 
+[6s] [ep] [tf] f 
+[5d] [ws] [ra] a 
+[4s] [qp] [ea] s 
+[3a] [0p] [%O] [0O] 
+[6p] [ep] [tf] f f 
+[5d] [ws] [ra] a 
+[4s] [qp] [ea] s 
+[3a] [0s] [%a] [0s] 
+[qetp] [qet] s [qeth] h [qet] j 
+[0wt] [0wtf] [0wtf] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] s [qet] s [qeth] h [qet] j 
+[0wt] [0wtf] f [0wt] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] [qets] [qeto] [qetf] d 
+[0wt] s [0wt] [0wtg] [0wtf] d 
+[W0r] [W0rs] d [W0r] s [W0r] g 
+[etu] f [etu] [wryd] [wrys] 
+[qetp] [qetf] d [qet] s [qet] 
+[0wto] [0wtf] d [0wt] s [0wt] 
+[W0rg] [W0rf] [W0r] [W0r] 
+[WH] 0 9 8 
+[6s] u s 
+[uf] 
+[wa] y a a 
+a s a s 
+[qpg] 
+4 h g f 
+8 t 
+[7r] t r t 
+[6e] u s 
+[uf] 
+[wa] y a a 
+a s a s 
+[qpg] 
+4 h g f 
+8 t 
+[7r] t r t 
+[6e] e u u u 
+[8y] t t u u u 
+[wy] t t u u u 
+[0u] u u u u u 
+[qy] t u u u 
+[4y] t t u u u 
+[8y] t u u u 
+[3u] u u [%u] u u 
+[6u] t u u u 
+[ey] t t u u u 
+[5y] t t u u u 
+[wu] u u u u u 
+[4y] t u u u 
+[qu] t u u u 
+[8u] t u u u 
+[Wu] u u [0u] u u 
+[qy] s [qeth] h [qet] j 
+[0wt] [0wtf] [0wtf] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] s [qet] s [qeth] h [qet] j 
+[0wt] [0wtf] f [0wt] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] [qets] [qeto] [qetf] d 
+[0wt] s [0wt] [0wtg] [0wtf] d 
+[W0r] [W0rs] d [W0r] s [W0r] g 
+[etu] f [etu] [wryd] [wrys] 
+[qetp] [qetf] d [qet] s [qet] 
+[0wto] [0wtf] d [0wt] s [0wt] 
+[W0rg] [W0rf] [W0r] [W0r] 
+[WH] 0 9 8 
+6 u [ey] u 
+[5o] u [wy] t 
+4 u [qy] u 
+[3O] p 0 u 
+6 u [ey] u 
+[5o] u [wy] t 
+[4y] u [qu] u 
+[3u] u 0 u 
+6 u [ey] u 
+[5o] u [wy] t 
+4 u [qy] u 
+[3O] p 0 u 
+6 u [ey] u 
+[5o] u [wy] t 
+[4y] u [qy] u 
+[3u] u 0 u 
+[ep] [wo] 
+[9y] [8t] 
+[qi] s [qeth] h [qet] j 
+[0wt] [0wtf] [0wtf] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] s [qet] s [qeth] h [qet] j 
+[0wt] [0wtf] f [0wt] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] [qets] [qeto] [qetf] d 
+[0wt] s [0wt] [0wtg] [0wtf] d 
+[W0r] [W0rs] d [W0r] s [W0r] g 
+[etu] f [etu] [wryd] [wrys] 
+[qetp] [qetf] d [qet] s [qet] 
+[0wto] [0wtf] d [0wt] s [0wt] 
+[W0rg] [W0rf] [W0r] [W0r] 
+[WH] 0 9 8 
+[qi] s [qeth] h [qet] j 
+[0wt] [0wtf] [0wtf] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] s [qet] s [qeth] h [qet] j 
+[0wt] [0wtf] f [0wt] f [0wt] d 
+[W0r] [W0rf] d [W0rf] d [W0rf] d 
+[etuf] d [etuf] d [wryf] d [wryf] d 
+[qet] [qets] [qeto] [qetf] d 
+[0wt] s [0wt] [0wtg] [0wtf] d 
+[W0r] [W0rs] d [W0r] s [W0r] g 
+[etu] f [etu] [wryd] [wrys] 
+[qetp] [qetf] d [qet] s [qet] 
+[0wto] [0wtf] d [0wt] s [0wt] 
+[W0rg] [W0rf] [W0r] [W0r] 
+[WH] 0 9 8 
+[tp] s u  ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Among us drip (meme)",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.060 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [18]-s D g G g D 
+s--Pds--5 
+[18]-s D g G g D 
+G--[8G]gD[8tG]gD
+[$18k][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1$^G]$$$$$[!@$g]$[!$D]$
+[$1s][!$]^$[!@$]$[9$P][!$d][$8s]$$[!$7][1^]$[!@$6][1$^][!$15]$
+[$18][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1@$^G]$$$$$[!@$g]$[!$D]$
+[1$G][!$]^$[1!@$]$[$9][1!$][8$G]$$[!$17]g[1$^]D$[168t!@$G]$g[1!$]D$
+[$18]!$ [!@$s] [$D]![$g]![$G] [!@$g] [!$D] 
+[$s]!$ [!@$] [$P][!d][$s]!$ [!@$] [!$5] 
+[$18]!$ [!@$s] [$D]![$8g]![$G] [!@$8tg] [!$D] 
+G----t-
+[$18k][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1$^G]$$$$$[!@$g]$[!$D]$
+[$1s][!$]^$[!@$]$[9$P][!$d][$8s]$$[!$7][1^]$[!@$6][1$^][!$15]$
+[$18][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1@$^G]$$$$$[!@$g]$[!$D]$
+[1$G][!$]^$[1!@$]$[$9][1!$][8$G]$$[!$17]g[1$^]D$[168t!@$G]$g[1!$]D$--
+t Y i I [!@1i] [!Y] 
+[1t]!^ [!@] E[!y]t![1^] [!@][1^][!15] 
+1!^ [!@t] Y![8i]![1@^I] [!@i] [!Y] 
+[18G]!-[!@18]-![18G]g[18]D[18@G][18g][18tD]
+[$18k][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1$^G]$$$$$[!@$g]$[!$D]$
+[$1s][!$]^$[!@$]$[9$P][!$d][$8s]$$[!$7][1^]$[!@$6][1$^][!$15]$
+[$18][!$][$^]$$$$$[!@$s]$[$D][!$][$g][!$][1@$^G]$$$$$[!@$g]$[!$D]$
+[1$G][!$]^$[1!@$]$[$9][1!$][8$G]$$[!$17]g[1$^]D$[168t!@$G]$g[1!$]D$
+[18]-[ts] [YD] [ig] [IG] [ig] [YD] 
+[ts]--[EP][yd][ts]--5 
+[18]-[ts] [YD] [ig] [IG] [ig] [YD] 
+[IG]--[IG][ig][YD][IG][ig][YD]
+[ts] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Sweden",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 20 -- tempo overides the delay
+
+shared.scr = [[ [30w]-$-[5ey]-7-
+[Q6e]-5-[2eT]--
+[30wr]-$-[5eyI]-7-
+[6eQT]-5-[T2eu]--
+[30wr]-$-[5eyI]-7-
+[6eQT]-5-[T2eu]--
+[30wr]-[$p] a [5eyI]-7 yu
+[6eQT]-5 Ip[T2eu]--
+[30wr] d [$a] p [5eyI]-7 yu
+[6eQT]-5 pI[T2eu]--
+[30wr]-[$p] a [I5eyd]-7 [yG][uf]
+[6eyQS]-5 [Id]S[T2eup]--
+[30wr]-[$a] p [5eyI]-7 yu
+[6eQT]-5 Ip[T2eu]--
+[30wr]-[$p] a [5eyI]-7 yu
+[6eQT]-[5G] Ip[T2eu]--
+[7ryI]--ap[W30ru]-u y 
+[60eT]--yu[59wr]--
+[I7ryd]--ap[W30ru]-u [yf] 
+[60eTS]-d G [59wra] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Payphone - Maroon 5",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.0150 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ u - i - o - d - 4 - 8 - [qs] -
+s - a - o - i - 8 - w - [ti] - i - u - t - i - 6 -
+[0u] - e - y - t - u - y - 5 - 9 - w - u - i - o -
+d - 4 - 8 - [qs] - s - a - o - i - 8 - w - [ti] -
+i - u - t - i - 6 - [0u] - e - y - t - u - y - 5 -
+9 - w -- t - t - [4q] - t - [4qu] o - o [4q] u - y
+[4qu] - y - [8t] - t - [8tu] o - o [8t] u - y [8tu] -
+[6e] - t - [6eu] o - o [6e] u - y [6eu] - y - [5w] -
+t - [5wu] o - o [5w] p - u [5wy] - u - [4q] - t -
+[4qu] o - o [4q] u - y [4qu] - y - [8t] - t - [8tu]
+o - o [8t] u - y [8tu] - [6e] - t - [6eu] o - o [6e]
+u - y [6eu] - y - [5wi] - u - t - i - u - y - [4u] -
+8 - [qu] - e - [tu] - e u q - y - [8u] - w - [tu] -
+u - [uo] - u u t - y - [6u] - 0 - [eu] - t - u - t
+u e - y - [5y] - 9 - [wr] - r - [ry] - r t w - o -
+[4u] - 8 - [qu] - e - [tu] - e u q - y - [8u] - w -
+[tu] - u - [uo] - u u t - y - [6u] - 0 - [eu] - t -
+u - t u e - y - [5y] - 9 - w - u - i - o - d - [48] -
+q - [48s] - q - [48s] - [qa] - [48o] - [qi] - [8w] -
+t - [8wi] - t - [8wi] - [tu] - [8wt] - [ti] - [60] -
+[eu] - [60] - [ey] - [60] - [et] - [60u] - [ey] -
+[59] - w - [59] - w - [59u] - [wi] - [59o] - [wd] -
+[48] - q - [48s] - q - [48s] - [qa] - [48o] - [qi] -
+[8w] - t - [8wi] - t - [8wi] - [tu] - [8wt] - [ti] -
+[60] - [eu] - [60] - [ey] - [60] - [et] - [60u] -
+[ey] - [59] - w - [59] - [ws] - [59f] - [wg] - [59f] -
+[wd] - [48d] - q s [48] - [qs] - [48] - [qd] - [48f] -
+q - [8w] - t - [8w] - t - [8wf] - [tg] - [8wf] - [td] -
+[60d] - e s [60] - [es] - [60] - [eh] - [60d] - e -
+[59] - w - [59] - w - [59uf] - [wig] - [59uf] - [wyd] -
+[48yd] - q [ts] [48] - [qts] - [48] - [qyd] - [48uf] -
+q - [8wt] --- [8wtuf] - [ig] - [8wtuf] - [yd] - [60eyd] -
+[ts] [60e] - [ts] - [60e] - [oh] - [60eyd] - [59wya] |
+[8wts] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Giga Chad (Meme only)",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 50 -- tempo overides the delay
+
+shared.scr = [[ [as]-a-a-d-s 
+[pa]-a u a-d-s 
+[Oa]-a-a-d-s 
+a a u a auuua-
+[as]-a-a-d-s 
+[pa]-a u a-d-s 
+[ua]-a-a-d-s 
+a a u a auuua- ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Lupang Hinirang (Our Beloved Homeland)",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 30 -- tempo overides the delay
+
+shared.scr = [[ d Sfd p 
+fGhGfG d 
+d Sfd p 
+fGhGf[yd]-
+d Sfd p 
+fGhGfG d 
+d Sfd p 
+fGhGfd dSd
+ffppffpp
+Ghjkj dSd
+ffppffpp
+GhGfGf[yd] dSd
+ffppffpp
+Ghjkj dSd
+ffppffpp
+GhGfGfy yry
+o o p p 
+apopa sap
+a o p II
+[roa]--dad
+h h j j 
+kjhjk----lkj
+k--h--
+j--z--
+z [wydz] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("After Dark - Mr. Kitty",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 54 -- tempo overides the delay
+
+shared.scr = [[ D-D z-z J-
+D-D z-z J-
+h-h z-z J-
+h-h z-z J l 
+D-D z-z J-
+D-D z-z J-
+h-h z-z J-
+h-h c-c Z z 
+[YD] P [dD] [Dz]-z J-
+[YD] P D z-z J-
+[oh] d h [Jdz]-z J-
+[oh] d h [Jdz]-z J l 
+[YD] P [dD] [Dz]-z J-
+[YD] P D z-z J-
+[oh] d h [Jz]-z J-
+[oh]-h c-c Z z 
+(----E [EP] s-d Y E 
+(----E [YP] s-d Y E 
+w----E [yP] s-d y E 
+w----E [yP] s-d y E 
+[(d]----E [EP] s-d Y E 
+(----E [YP] s-d Y E 
+w----E [yP] s-d y E w-P D-d--(----E [YP] s-d Y E (----E [YP] s-d Y E 5 9 [wP] [Es]-d Y-5 9 [wP] [Es]-d Y-[(d]----E [YP] s-d Y E (----E [YP] s-
+d Y E 5 9 [wP] [Es]-d Y-[wyo]-P D-d--[@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ygc] ^ [8gc] [9gZ] z [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [odh]-
+h c-c Z z @ ( [(P] 
+s E-d--[Ei] P [@o] ( [(P] 
+s E E d--[Yi] o [5d] 9 [wP] [Es]-d--[yi] P [5d] 9 [wP] [Es]-d--
+[yi] P [@od] ( [(P] s E E d--
+[Yi] o [@od] ( [(P] s E E d--
+[Yi] o [5d] 9 [wP] [Es]-d--[yi] P [5d] 9 [wP] [ED]-d y-@ ( [o(P] [ps] 
+E s [Pd]--[Yi]-P-[@o] ( [o(P] [ps] 
+E s [Pd]--[Yi]-P-[5o] 9 [woP] [Eps] s [Pd]--[yi] P [P5d] 9 [woP] [Eps]-[Pd]--
+[yi] P [@o] ( [o(P] [ps] E [Eps] [Pd]--
+[Yi] P [@od] ( [o(P] [ps] E [Eps] [Pd]--
+[Yi] P [5wod]-[oP] [ps]-[Pd]--[P5wd]-P D d--[@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [^oh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [woh]-
+[oh] [gc]-[gc] [DZ] [dz] [(YPJ]-
+P [DJ]-P [DJ]-[(YPJ]-
+P [DJ]-P [DJ] P [5wdJ]-
+P [dJ]-P [dJ]-[5wdj]-
+p [dj]-p [dg]-[(YPJ]-
+P [DJ]-P [DJ]-[(YPJ]-
+P [DJ] D P [DJ] P [5wdJ]-
+P [dJ]-P [dJ]-[5wdj]--
+[dj] [dg] p d g [@DJ] ( 
+P [(P]-[@DJ] [(P] [(P] [DJ] E [gDJ]-P [PD] [Pg] 
+[5dJ] w P [wP]-[5dj] [wp] [wd] [dj] o [dg] p 
+d g [@DJ] ( P [(P]-[g@DJ] ( P [g(PDJ] [gDJ] E [DJ] P [gDJ] P [5wdhJ]-
+P P----[pdj]--
+[pdg]--[@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [^oh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] [dl] [tD] s 
+[sD] [dhz] y [Ydz] [odJ] P [@D] ( 
+[(D] [Edz] 4 [5dz] [d^J] 9 [5h] w 
+[Eh] [ydz] ^ [8dz] [9J] d [5woh]-
+[oh] [gc] ^ [gc] [DZ] [dz] [5D]-
+[5D] [qz]-[qz] [9J]-[5D]-
+[5D] [qz]-[qz] [9J]-[oh]-
+[oh] [dz]-[dz] [PJ]-[oh]-
+[oh] [dz]-[dz] [PJ] [sl] [YD]-
+[YD] [dz]-[dz] [PJ]-D-
+D z-z J-h-
+h z-z J-h-
+h c-c Z z ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Hedwig's Theme - Harry Potter Theme",function()
+   -- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 58 -- tempo overides the delay
+
+shared.scr = [[ a|fu-hG|fu-
+k|[uj]--uG--uf-
+hG|Du-g|ua-o|a-
+a|uf-hG|[uf]-k|
+uz-L|[ul]-H|lu-k|
+uj-a-h-f-o|a-
+h|uk-h|[uk]-h|[ul]-
+k|Ju-G|uh-kJ|P-
+a|k----h|ku-
+h|ku-h|zu-L|lu-
+H|lu-kJ|P-h|f-
+o|a--kkkkkkJ
+kl|kJk|h-j-jHj|s|
+a|fhJJJ|kkkkkkJk
+z|lkl|g|l|kJk-f|h--
+D--ffffffDf
+g|fDf|s|d|dSd-i|
+u|psDDD-ffffffD
+fh|gfg-a|g|fDf|p|
+s-P ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+
+local Button = Section.NewButton("World Cup - IShowSpeed",function()
+  -- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60.-- tempo overides the delay
+
+shared.scr = [[ h 
+[9qes] a [9qe] p [9qeh] 
+[qets] a [qet] p [qeth] 
+[etus] a [etu] p [etup] 
+[wrya] [wry] [wryh] 
+[9qes] a [9qe] p [9qeh] 
+[qets] a [qet] p [qeth] 
+[etus] a [etu] p [etup] 
+[wrya] [wry] [wryd] 
+[9qed] [9qe] d [9qed] d 
+[qetd] d [qet] d [qetd] 
+[etud] [etu] d [etud] d 
+[wryd] d [wry] d [wryh] 
+[9qes] a [9qe] p [9qeh] 
+[qets] a [qet] p [qeth] 
+[etus] a [etu] p [etup] 
+[wrya] [wry] [wry]  ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+
+local Button = Section.NewButton("Heat Waves",function()
+  -- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 40 -- tempo overides the delay
+
+shared.scr = [[ 9dgydgyd8sftsfts
+6psepsep5oawoawo
+9dgydgyd8sftsfts
+6psepsep5oa--
+9 y [qy]t-8yyy[0y]t-
+[6y] y [0y] t [5y]yy[5u][wy]t-
+9 y [qy]t-8yyy[0y]t-
+[6y] y [0y] t [5y]yy[5u]--
+2 y [6t] tt[1u]uyy[5y]-
+6 y [0t] tt[5u]uy5y 9 
+2 y [6t] t [1u]ut [5y]-
+6 y [0t] t [5u]ut5y 9 
+2 y [6t] tt[1u]uyy[5y]-
+6 y [0t] tt[5u]uy5y 9 
+2 y [6t] t [1u]ut [5y]-
+6 y [0t] t [5u]ut5y-
+9dgydgyd8sftsfts
+6psepsep5oawoawo
+9dgydgyd8sftsfts
+6psepsep5oa ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+
+local Button = Section.NewButton("Super Idol (Meme)",function() 
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 42 -- tempo overides the delay
+
+    shared.scr = [[ f f g f d f p-
+d s p-s-d-
+d d f d s d f-
+s p s-s-p-
+f f g f d s f d-
+f p-p s a-
+a-f-f-s ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Undertale OST: 085 - Fallen Down (Reprise)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ [yG] [IS] [pG] [IS] [pG] [IS]
+[yG] [IS] [pG] [IS] [pG] [IS]
+[ra] [Yp] [IS] Y [Ip] [Ya]
+[rf] [YD] [If] [YG] [ID] [Ya]
+[wG] [ra] [yG] [ra] [yG] [ra]
+[wG] [EP] [yG] [EP] [yh] E
+[yG] [Id] [pG] [Id] [pf] [IG]
+[Tf] u [pd] u [pS] u
+[yG] [IS] [pG] [IS] [pG] [IS]
+[yG] [IS] [pG] [IS] [pG] [IS]
+[ra] [Yp] [IS] Y [Ip] [Ya]
+[rf] [YD] [If] [YG] [ID] [Ya]
+[wG] [ra] [yG] [ra] [yG] [ra]
+[wG] [EP] [yG] [EP] [yh] E
+[yG] [Id] [pG] [Id] [pf] [IG]
+[TS] I [pG] I [pS] u
+[od] y o [yp] [oa] [IS]
+[ud] T [IS] e [rd] T
+[up] I T [Ia] [Tp] [wo]
+[eI] T [IG] y [of] I
+[rd] y I [yp] [Ia] [rS]
+[ed] T [uS] T [Id] P
+[aG] I u [rh] [yG] [of]
+[pd] I [uf] y [uS] I
+[od] y o [yp] [oa] [IS]
+[ud] T [IS] e [rd] T
+[up] I T [Ia] [Tp] [wo]
+[eI] T [IG] y [of] I
+[rd] y I [yp] [Ia] [rS]
+[ed] T [uS] T [Id] P
+[aG] [Id] [aG] [Id] [af] [IG]
+[pf] u [pd] u [pS] u
+[yp] [Ip] [Ip] [yj] [Ip] [Ip]
+[Tf] [up] [up] T [up] [up]
+[rd] [yI] [yI] [rj] [yI] [yI]
+[ep] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wd] [ry] [ry]
+[Qj] [ey] [ey] Q [ey] [eyk]
+[0j] [wr] [wr] [0f] [wr] [wr]
+[ed] [Tu] [Tu] e [Tu] [Tu]
+[yp] [Ip] [Ip] [yj] [Ip] [Ip]
+[Tf] [up] [up] T [up] [up]
+[rd] [yI] [yI] [rj] [yI] [yI]
+[ep] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wd] [ry] [ry]
+[Qj] [ey] [ey] Q [ey] [eyk]
+[0j] [wr] [wr] [0f] [wr] [wr]
+[ed] [Tu] [Tu] e [Tu] [Tu]
+[wp] [ry] [ry] [wj] [ry] [ryG]
+[wf] [ry] [ryd] [wS] [ry] [ryd]
+[Qf] [eT] [eT] [QL] [Tel] [Tek]
+[Qj] [eT] [eT] Q [eT] [eT]
+[0a] [wr] [wr] [0j] [wr] [wrG]
+[ef] [Tu] [Tud] [ef] [Tu] [uTG]
+[ES] [Tu] [Tu] [Ef] [Tu] [Tu]
+[rf] [yI] [Ipd] [eS] [Tu] [upd]
+[wp] [ry] [ry] [wj] [ry] [ryG]
+[wf] [ry] [ryd] [wS] [ry] [ryd]
+[Qf] [eT] [eT] [QL] [Tel] [Tek]
+[Qj] [eT] [eT] Q [eT] [eT]
+[0a] [wr] [wr] [0j] [wr] [wrG]
+[ef] [Tu] [Tud] [ef] [Tu] [uTG]
+[ES] [Tu] [Tu] [Ef] [Tu] [Tu]
+[rf] [yI] [Ipd] [eS] [Tu] [upd]
+[9p] y u y
+W y u y
+w y u o
+[9I] u y e
+[9p] y u y
+W y u y
+w y u o
+[9I] u y e
+[wp] y u y
+e y u I u
+[ey] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Dandelions",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 35 -- tempo overides the delay
+
+    shared.scr = [[ [48j]hff-d[60f]-ds-
+[8wj]hff-d[59d]-sd-s
+[48p]sdfds[60f]-j-
+[8wo]sdfds[59d]--
+[48p]sssdf[60j]-h-
+[8wf]-d-[59]--
+[48p]sssdf[60j]-h-
+[8wf]-d-[59]ssfds
+[48p]-fds[60s]ssfds
+[8w]f--[59]ssfds
+[48p]-fds[60s]ssfds
+[8w]f--[59]-s-
+[48g]hgfds[60f]-fds
+[8wd]-f-[59d]--
+[48g]hgfds[60f]-fds
+[8wf]--[59d]--
+[48j]hff-d[60f]-ds-
+[8wj]hff-d[59d]-sd-s
+[48p]sdfds[60f]-j-
+[8wo]sdfds[59d] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("World's Smallest Violin",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ 180w0wtwtutuouososfsfhfh
+l-l-[sl]-[sl]-
+[qts] s s s s P p-
+[Qys] s s s s Pp--
+[wyd] d d d ds P--
+[wyd] d [eyd] d [Eyd] s P-
+[qts] s s s sP p-P
+[Qys] s s s sP p-s
+[wyd] d d d ds P-s
+[wyd] d [eyd] d [Eyd]s P[ty]-
+[^Pid] [EPqid] [^Pid] [Eqd] [^d]s[qE]g^ [qE]
+[4ips] [qeips] [4ips] [qes] [4s] [qes]g4 [qe]
+[5P] [wEP]P5 [wEP] [5P] [wEP] [5s] [wEP]
+[4p] [qe] [5P] [qe] [6s] [qe] 4 [qe]i
+[3o] [0wo] [3o] [0wo] [3o] [0wo] [3p] [0wo]
+[2i] [9q] [2o] [9q] [2p] [9q] 2 [9q]p
+[5a] [wra] [5a] [wra] [5a] [wra] [5s] [wrd]
+[1f]d[80s] 2 [80] @ [80] 3 [80ts]
+[4ts] [qe] [4ts] [qets] [4ts] [qeEP][ep]4 [qe]
+[$ts] [Qets] [$ts] [Qets] [$ts] [eQEP][ep]$ [Qets]
+[^yd] [Eyig] [^ig] [Eyd] [^ig] [Eyd] [^ig] [Eyoh]
+[*pj] [Tu] * [TLujx] [6jL] [TLeujx] [6jL] [Teupj]
+[^oh] [^9ig] [^yd] [^9ig] [7oh] [79ig][ig]7 [79oh]
+[1pj] [8qsl] [1sl] [8qpj] [2dz] [Q9sl][sl]2 [Q9pj]
+[5pj] [Ewig] [5ig] [Ewpj] [^pj] [Etig][ig]^[ig][Et]
+[4ig] [qe] [4ipsg] [qe] [4gjlc] [qe] [4cbm] [qe]
+[Eqz] z [^z] z [^z] lc^-
+[8qel] l [4l] l [4l] Jc4-
+[9wEJ] J [5J] J [5J] j [5l] J
+[4j] [qe] [5J] [qe] [%k] [qe] [6l] [qe]
+[*eh] h [6h] h [6h] h [6j] h
+[9eg]-[2g]GhHjJ[2k]lLZx[2c]-
+[Ewc] c [^c] c [^x] z [^l] j
+[wth]-[8osfh]-[8uosf]-[8tuos] s
+[qts] s [4s] s [4s] P [4p] P
+[Qys] s [$s] s [$s] Pp$-
+[wyd] d [5d] d [5d] sP5-
+[wyd] d [eyd] d [Eyd] sP5 w
+[qts] s [4s] s [4s] Pp4-
+[Qys] s [$s] s [$s]P p$-
+[wyd] d [5d] d [5d]s P5-
+[wyd] d [eyd] d [Eyd]s P[ty]-
+[^Pid] [EPqid] [^Pid] [EPqd] [^Pd]s[qE][Pdg]^ [qE]
+[4ips] [qeips] [4ips] [qeps] [4ps]s[qe][psg]4 [qe]
+[5oP] [woEP][oP]5 [woEP] [5oP] [woEP] [5os] [woEP]
+[4ip] [qe] [5oP] [qe] [6ps] [qe] [4gjlc] [qe]i
+[3uo] [0wo] [3uo] [0wo] [3uo] [0wo] [T3up] [0wo]
+[2yi] [9q] [2uo] [9q] [2ip] [9q] 2 [9q]p
+[5oa] [wroa] [5oa] [wroa] [5oa] [wroa] [5os] [wrod]
+[1uosf]d[80s] [2i] [80] [@I] [80] [3o] [80ts]
+[4ts] [qe] [4ts] [qets] [4ts] [qeEP][ep]4 [qe]
+[$ts] [Qets] [$ts] [Qets] [$ts] [eQEP][ep]$ [Qets]
+[^yd] [Eyig] [^ig] [Eqyd] [^ig] [Eqyd] [^ig] [Eqoh]
+[6pj] [Tu] 6 [TLujx] [6jL] [TLeujx] [6jL] [Teupj]
+[^oh] [^9ig] [^yd] [^9ig] [7oh] [79ig][ig]7 [79oh]
+[1pj] [8qsl] [1sl] [8qpj] [2dz] [Q9sl][sl]2 [Q9pj]
+[5pj] [Ewig] [5ig] [Ewpj] [^pj] [Etig][ig]^[ig][Et]
+[4ig] [qe] [4ipsg] [qe] [4gjlc] [qe] [4cbm] [qe]
+[Eqz] z [^z] z [^z] lc^-
+[8qel] l [4l] l [4l] Jc4-
+[9wEJ] J [5J] J [5J] J [5J]l J
+[4j] [qe] [5j]HG[qe]fd%sP[qep]OoI[6i] [qe]
+[*Teuo] [Tuo] [T6uo] o [6o] o [6o]p o
+[9ei]-2IopPsSdDf2GhjJlLzZx[2c]-
+[Ewc]vcvcvcvc^vcvc [^x] z [^l] j
+[wth] sf[8h]lhl[8x]vxv[8m]-
+[qts] s [4s] s [4s] Pp4-
+[Qys] s [$s] d [$s]P p$-
+[wyd] d [5d] d [5d] sP5-
+[wyd] d [eyd] d [Eyd] sP5 [ws]
+[qts]-[4s] s [4s] Pp4-
+[Qys] s [$s] s [$s] Pp$ s
+[wyd] g [5g] d [5g] d [5g] h
+[T0ej] eTupSfjLxb----
+p-
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o
+[8etp] s [8ets] p [9eyd] s [9eys] p
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o
+[8etp] s [8ets] p [9eyd] s [9eys] p
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o
+[8etp] s [8ets] p [9eyd] s [9eys] p
+[^Eqo] i [^Eqy] i [7wro] i [7wri] o
+[8etp] s [8ets] p [9eyd] s [9eys] [pj]
+[^Eqoh] [ig] [^Eqyd] [ig] [7wroh] [ig] [7wrig] [oh]
+[8etpj] [sl] [8etsl] [pj] [9eydz] [sl] [9eysl] [pj]
+[^Eqoh] [ig] [^Eqyd] [ig] [7wroh] [ig] [7wrig] [oh]
+[8etpj] [sl] [8etsl] [pj] [9eydz] [sl] [9eysl] [pj]
+[59wpj]-[59wig]-[59wig]-[59wpj]-
+[8wtpj]-[8wtig]-[8wtig]-[8wtig]-
+[4qgjlc]-4 ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Build a B*tch - Bella Poarch",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 63 -- tempo overides the delay
+
+    shared.scr = [[ p a
+[6s] 8a[0p] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [I2p] 6 [9o] p
+[5a] [7a] [9a] s [O3d] % [7p] a
+[6s] 8a[0p] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [2I] [6y] [9I] p
+[5o]-w-5--
+[6p] s a p6[2o] I [9y]-
+[5p] s a p5[3a]-[3u]-
+[6p] s a p6[2o] I [9y]-
+[5p] a p o5[3p]-[3a]-
+[6f]-ds a6[2s] a [9p]-
+[5o] a p o5[3p]-[3u]-
+[6p] s a p6[2o] I [9y]-
+5 y o-o-p a
+[6s] 8a[0p] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [I2p] 6 [9o] p
+[5a] [7a] [9a] s [O3d] % [7p] a
+[6s] 8a[0u] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [2p] [6y] [9I] p
+[5o]-w-5--
+6-8[0s] a [2p] o6[9I]-
+[5a] a7[9a] p [3O]-70-
+6-8[0s] a [2I] y6[9o] p
+[5a] a7[9a] s [3d]-70-
+[Iep] [ps] [oa] [Ip] [9uo] [yI] y-
+[wuo] [oa] [Ip] [uo] [0ua]-u-
+[6p] s a p6[2o] I [9y]-
+[5o] a p o5[3a]-[3d]-
+[6f]-ds a6[2s] a [9p] o
+[5a] a a s5[3a]-[3p] o
+[6p] s a p6[2o] I [9y]-
+5 y o o y-p a
+[6s] 8a[0p] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [I2p] 6 [9o] p
+[5a] [7a] [9a] s [O3d] % [7p] a
+[6s] 8a[0u] f [2pd] 6 [9o] p
+[5a] [7a] [9a] p [3uO] % [7p] a
+[6s] [8s] [0s] a [2p] [6y] [9I] p
+[5o]--w 5--
+6-8[0s] a [2p] o6[9I]-
+[5a] a7[9a] p [3O]-70-
+6-8[0s] a [2I] y6[9o] p
+[5a] a7[9a] s [3d]-70-
+6-8[0f] d [2s] a6[9p]-
+[5a] a7[9a] p [3O]-7[0a]-
+[6s] s8[0s] a [2I] y6[9I] p
+[5o] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("It's Raining Tacos",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 55 -- tempo overides the delay
+
+    shared.scr = [[ s s d f 8 [to] 8 t 8 t 8 [tf] [d5] [ws] [d5] [wa] 5 w 5 w [s6] e [u6] e 6 e 6 [se] [a3] [p0] [a3] [a0] 3 0 3 [o0] [p4] [qo] [p4] [sq] 4 q [g4] q [f1] 8 [f1] [s8] 1 8 1 8 4 q [g4] q [g4] q [f4] [qf] 5 [wd] [s5] w [s5] w [d5] [wf] 8 [to] 8 t 8 t 8 t [d5] [ws] [d5] [wa] 5 [wh] h [l5] [wh] [s6] e [u6] e 6 e 6 e [a3] [p0] [a3] [a0] 3 [h0] h [l3] [h0] [p4] [qo] [p4] [sq] 4 q 4 q [f1] 8 [f1] [s8] 1 [h8] h [l1] [h8] 4 q [g4] q [g4] q [f4] [qf] 5 [wd] 5 w [s5] w [d5] w [f6] e [f6] e [f6] [ge] [f6] [ed] 5 w [f5] w [f5] w [f5] [wg] 4 q 4 q 4 [qf] [g4] [qf] 8 t 8 t [s8] t [d8] t [f6] e [f6] e [f6] [ge] [f6] [ed] 5 w [f5] [wf] [f5] [wf] 5 [wg] 4 q 4 q 4 [qf] [g4] [qh] 5 w 5 w 5 [wf] [d5] [ws] 8 t 8 t 8 t 8 t 5 w 5 w 5 w 5 w 6 e 6 6 e 6 6 e 6 6 e 6 3 0 3 0 3 0 3 0 4 q 4 q 4 q 4 q 8 t 8 t 8 t 8 t 4 q 4 q 4 q 4 q 5 w 5 w 5 w 5 w 5 s s d f t [uo] o s f s o u w r y o a o [ya] [sr] e [ut] u p s p u t 0 w r u [of] u [rf] [wg] q [se] t i p i t e 8 0 w t u t w 0 q e [tg] i [pg] i [tf] [fe] w [rd] [ys] o [sa] o [yd] [rf] 8 [to] 8 t 8 t 8 t 5 w 5 w [a5] w [a5] [ws] 6 [ue] 6 e 6 e 6 e 3 0 3 0 [f3] 0 [f3] [g0] 4 [sq] 4 q 4 q 4 q 1 8 1 8 1 8 1 8 4 q [g4] q [g4] q [f4] [qf] 5 [wd] [h5] w [h5] w [h5] [wh] 8 f ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Megalovania",function()
+  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ 99y e-W w q 9qw
+88y e-W w q 9qw
+77y e-W w q 9qw
+^^y e-W w q 9qw
+[29]9y e-W w q 9qw
+[18]8y e-W w q 9qw
+77y e-W w q 9qw
+^^y e-[1W] w q 9qw
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[1t]t[8d] [1p] 8[1O] [1o]8[1i]1[1y][8i]o
+[7r]r[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[1O] [1o]8[1i]1[1y][8i]o
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[1t]t[8d] [1p] 8[1O] [1o]8[1i]1[1y][8i]o
+[7r]r[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[1O] [1o]8[1i]1[1y][8i]o
+[2g] [9g]g2g9[2g] [2d]9[2d]229
+[1g] [8g]g1h8[1H] [1H]h[8g][1d][1g][1h]8
+[7g] [7g]g7h7[7H] [7j]7[7l]7[7j]7
+[^z] [^z] [^z]j[^z][1l] 181[1lv]18
+[2gj] [9gj][gj]2[gj]9[2gj] [2dh]9[2dh]229
+[1gj] [8gj][gj]1[gj]8[1dh] [1gj]8[1jz]1[1gj][8dh]
+[7kz]h[7dj]f[7gh]d[7ag][7d]l[7d][7ah][7d][7ag][7o][7af]o
+[^P] [^s]d^g^[1fl] 181118
+^ ^ ^ ^^g[^d][^g][^h][^H][^h][^g]d
+[1j]hgd[8g] [1h] 81 1811[1H]8j
+[2l] [9j]H[2h]g[9d][2g]h2[9H]2[2j]2[9l]
+[!L] [*H] [!H]h[*g][@h] @(@@@(
+[^yi] [^uo] [^ip] [^dg]^[sf]^^^[^pd]^^
+[1of] 8 [1pg] 81[sh]181[1pf]18
+[2dj] 9 2 92j[2H][9h][2G][2g][2f][9D]d
+[!OS] * ! *@[PD]@(@@@(
+^ ^ ^ ^^g[^d][^g][^h][^H][^h][^g]d
+[1j]hgd[8g] [1h] 81 1811[1H]8j
+[2l] [9j]H[2h]g[9d][2g]h2[9H]2[2j]2[9l]
+[!L] [*H] [!H]h[*g][@h] @(@@@(
+[^yi] [^uo] [^ip] [^dg]^[sf]^^^[^pd]^^
+[1of] 8 [1pg] 81[sh]181[1pf]18
+[2dj] 9 2 92j[2H][9h][2G][2g][2f][9D]d
+[!OS] * ! *@[PD]@(@@@(
+[^E] ^ ^ ^^ ^^^[^i]^^
+[1u] 1 8 11y181118
+[7i] 7 7 77 777777
+7 7 7 77 777777
+[^E] ^ ^ ^^ ^^^[^i]^^
+[1u] 1 8 11y181118
+[2y] 2 9 22 292229
+2 2 9 22 292229
+[^E]E[^d] [^p] ^[^O] [^o]^[^i]^[^y][^i]o
+[1t]t[1d] [8p] 1[1O] [1o]8[1i]1[1y][8i]o
+[7y]y[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[7y]y[7d] [7p] 7[7O] [7o]7[7i]7[7y][7i]o
+[^E]E[^d] [^p] ^[^O] [^o]^[^i]^[^y][^i]o
+[1t]t[1d] [8p] 1[1O] [1o]8[1i]1[1y][8i]o
+[269]9[26yi] [26eu]-[W26t] [26wu] [26qy] [269w][26qe][26wt]
+[269]9[26yi] [26eu]-[W26t] [26wu] [26qy] [269w][26qe][26wt]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[!WT] [!WT]*[!WT]!![*WT]
+[1wt] [8wt] [1wt] 8[Q7r] [Q7r]7[Q7r]77[Q7r]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[2ey] [2ey]9[2ey]22[9ey]
+[2ey] [9ey] [2ey] 9[2ey] [2ey]9[2ey]22[9ey]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2ey] [9ey] [2ey] 9[!WT] [!WT]*[!WT]!![*WT]
+[1wt] [8wt] [1wt] 8[Q7r] [Q7r]7[Q7r]77[Q7r]
+[q^E] [q^E] [q^E] ^[q^E] [q^E]^[q^E]^^[^Eqi]
+[1wt] [8wt] [1wt] 8[1wt] [1wt]8[1wt]11[8wt]
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+[2y]y[9d] [2p] 9[2O] [2o]9[2i]2[2y][9i]o
+^^y e-W w q 9qw
+88y e-W w q 9qw
+99y e-W w q 9qw
+99y e-W w q 9qw
+^^y e-W w q 9qw
+88y e-W w q 9qw
+[29]9[2yi] [2eu]-[W2t] [2wu] [2qy] [29w][2qe][2wt]
+[29]9[2yi] [2eu]-[W2t] [2wu] [2qy] [29w][2qe][2wt]
+[269yd]--[29dgjz] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Snap - Rosa Linn",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 52 -- delay overides the delay
+
+    shared.scr = [[ 6 0 e t 6 0 e t
+6 0 e t 5 9 w r
+8 w t u 8 w t u
+8 w t u [5s] 9srf9
+[6f] 0 e t 6 0 e t
+6 0 t [0s] [4g] 8gef8
+[8f] w u [ws] 8 w t u
+8 w t u [5s] 9drs9
+[6f] 0 t [0f] [6f] 0 t [0d]
+[6d] 0 t [0d] [4d] [8s] [es] 8
+8 w t u 8 w t u
+8 w u [ws] [5s] 9srd9
+[6f] 0 e t 6 0 e t
+6 [0s] t [0s] [4g] [8g] e [8f]
+[8f] w u [ws] 8 w t u
+8 w u [ws] [5s] 9drs9
+[6j] 0hth0 [6f] 0fef0
+[6d] 0dtd0 [4s] 8 [es] [8s]
+8 w t u 8 w t u
+8 w t u 5 9 w r
+[qtipd]--[qt]--
+[qt]--[qts] f--
+[wyf] d s d [wy]--
+[wy]----s d
+[6f]-[0e]-[3f]-[0e]-
+4-[et]-[8f] g [et]-
+[1f]-[wt]-5-[wt]-
+8-[wt] s [8j]-h7h-
+[6f] d [0es] d [3f] g [0ef]-
+4 d [ets] d [8f] g [etf]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rs] d
+[6f]-[0e]-[3f]-[0e] s
+[4g]-g[et]g-[8g] f [etf]-
+1-[wt]-5-[wt]-
+8-[wt] s [8j]-h7h-
+[6h] g [0ef] g [3h] j [0eh]-
+4 g [etf] g [8h] j [eth]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+5-o----
+s s-s-d-
+[6sf] 0 e t 6 0 e t
+6 0 t [0s] [4sg] 8[sg]e[sf]8
+[8sf] w u [ws] 8 w t u
+8 w t u [5s] 9srf9
+[6sf] 0 t 0 [6sf] 0 t [0d]
+[6d] 0 t [0d] [4d] [8s] [es] 8
+8 w t u 8 w t u
+8 w u [ws] [5s] 9srd9
+[6sf] 0 t [0s] 6 0 e t
+6 0 t [0s] [4sg] 8[sg]e[sf]8
+[8sf] w u [ws] 8 w t u
+8 w t u 5 9srs9
+[6sj] 0[sh]t[sh]0 [6sf] 0[sf]e[sf]0
+[6ad] 0[ad]t[ad]0 [4g] [8f] [es] 8
+8 w t u 8 w t u----
+s s s d
+[6sf]-[0e]-[3sf]-[0e]-
+4-[et]-[8sf] [sg] [et]-
+[1sf]-[wt]-5-[wt]-
+8-[wt] s [8sj]-[sh]7[sh]-
+[6sf] [ad] [0eps] [ad] [3sf] [dg] [0esf]-
+4 [ad] [etps] [ad] [8sf] [dg] [etsf]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rps] [ad]
+[6sf]-[0e]-[3sf]-[0e] s
+[4sg]-[sg][et][sg]-[8sg] [sf] [etsf]-
+1-[wt]-5-[wt]-
+8-[wt] s [8sj]-[sh]7[sh]-
+[6fh] [dg] [0esf] [dg] [3fh] [gj] [0efh]-
+4 [dg] [etsf] [dg] [8fh] [gj] [etfh]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+[6sl]-[0e]-[3ak]-[0e]-
+[4pj]-[et]-[8oh]-[et]-
+[1uf]-[wt]-5-[wt]-
+8-[wtoh]-[8pj]-[7ak]-
+[6sl] f [0ej] l [3ak] f [0eh] k
+[4pj] s [etg] j [8oh] s [etf] h
+[1uf]-[wt]-5-[wt]-
+8-9-0-w s
+[is]-j-j-[pj]-j-j-
+[fj]-j-k-[sl]-k-h-
+o--d--
+h----s
+[id]-f-f-[pf]-f-f-
+[df]-d-d-[sd]-s-
+[os]--f--
+a----s-
+d-f-f-f-f-f-
+d-d-d-d s s--
+o----
+[sl] [dz]
+[fx]--[fx]----
+[fx] [gc]--
+[1fx]-[wt]-5-[wt]-
+8-[wt] [sl] [18jb]-[hv]7[hv]-
+[6fx] [dz] [0esl] [dz] [3fx] [gc] [0efx]-
+4 [dz] [etsl] [dz] [8fx] [gc] [etfx]-
+1-[wt]-5-[wt]-
+8-[wt]-7-[rsl] [dz]
+[6fx?]-[0e]-[3fx]-[0e] [sl]
+[4gc]-[gc][et][gc]-[8gc] [fx] [etfx]-
+1-[wt]-5-[wt]-
+8-[wt] [sl] [18jb]-[hv]7[hv]-
+[6hv] [gc] [0efx] [gc] [3hv] [jb] [0ehv]-
+4 [gc] [etfx] [gc] [8hv] [jb] [ethv]-
+1-[wt]-8-[wt]-
+1-[wt] s [8s] s [wt]-
+[6lm?]-[0ekn]-[3kn]-[0ejb]-
+[4jb]-[ethv]-8-[etgc]-
+[1fx]-[wt]-5-[wt]-
+8-[wt] s [18s] s 7-
+[6lm]-[0ekn]-[3kn]-[0ejb]-
+[4jb]-[ethv]-8-[etgc]-
+[1fx] [dz] [wtsl]-5-[wt]-
+8-[wt] [hv] [8hv]-[jb]7[kn]-
+[6lm] x [0eb] m [3kn] x [0ev] n
+[4jb] l [etc] b [8hv] l [etx] v
+[1dz] h [wtk] z [5fx] h [wtl] x
+8-[wthv]-[8jb]-[7kn]-
+[6lm] x [0eb] m [3kn] x [0ev] n
+[4jb] l [etc] b [8hv] l [etx] v
+[1dz]-[wt]-[8fx]-[wt]-
+1-[wt] s [8s] s [wt]--
+o ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Golden Hour - JVKE",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 85 -- tempo overides the delay
+
+    shared.scr = [[ [pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
+[pG] [SH] [fk] [SL] [fk] [SH] [pG] [SH] [fk] [SL] [fk] [SH]
+[Of] [aH] [Dk] [aL] [Dk] [aH] [Of] [aH] [Dk] [aL] [Dk] [aH]
+[Of] [aH] [Dk] [aL] [Dk] [aH] [of] [aH] [Dk] [aL] [Dk] [aH]
+[If] [pG] [Sj] [pk] [Sj] [pG] [If] [pG] [Sj] [pk] [Sj] [pG]
+[If] [pG] [Sj] [pk] [Sj] [pG] [If] [pG] [Sj] [pk] [Sj] [pG]
+[uD] [Of] [aG] [OH] [aG] [Of] [uD] [Of] [aG] [OH] [aG] [Of]
+[uD] [Of] [aG] [OH] [aG] [Of] [uD] [Of] [aG] [OH] [aG] [Of]
+[6eO] [TO] [uO] [TO] [uO] [TI] [6eV] T u T u T
+[6eO] [TO] [uO] [TO] [uO] T [6eO] [TO] [uO] [TO] [uO] T
+[%WO] [rO] [YO] [rO] [YO] [rI] [%WV] r Y r Y r
+[%WO] [rO] [YO] [rO] [YO] r [5wO] [rO] [YO] [rO] [YO] r
+[$QO] [eO] [TO] [eO] [TO] [eI] [$QC] e T e T e
+[$QO] [eO] [TO] [eO] [TO] [eI] [$QC] e T e T e
+[30O] [WO] [rO] [WO] [rO] W [30OD] [WO] [rO] [WO] [rO] W
+[O30f] W [rO] W [rO] [WI] [30uG] W [rO] W [ra] W
+[6eu] p S T u T u T [6e] T [uS] T [upD] T
+[S6epf] T u T u T [6e] T [upS] T [Ouf] T
+[%WOD] r [YS] r [YOa] r [%WOa] r Y r [YO] r
+[a%WYOD] r [YS] r [YOa] r [5wYOD] r [YS] r [YOa] r
+[$QIa] [Iep] T e T e [$Q] e T e T e
+[$Q] e T e [uTS] e [$QTIua] e [TIp] e [TIO] e
+[t%WYO] [%W] [%W] [%WTOS] [%W] [%W]
+[(WOuf] % [(W] % [(W] % [tsYIOG]
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] n [kx] n [kx] n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f G H [30G] f [rWYDZ] f G H G f
+[$fx] f G H G f [%GC] f G H G f
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] 6 6 6 [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] 6 n [kx] [0t] n [kx] 6 n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f [3G] H [30G] f [rWYD] f G H G f
+[$d] f G [6$*QH] G f [%d] f G [%(QWH] G f
+[6e*O] [eTO] [uTO] [eTO] [uTO] [eTI] [6e*HV] [eT] [Tu] [eT] [Tu] [eT]
+[6e*O] [eTO] [uTO] [eTO] [uTO] [eT] [6e*O] [eTO] [uTO] [eTO] [uTO] [eT]
+[7%WO] [rWO] [rYO] [rWO] [rYO] [rWI] [7%WHV] [Wr] [rY] [Wr] [rY] [Wr]
+[7%WO] [rWO] [rYO] [rWO] [rYO] [Wr] [57wO] [wrO] [rYO] [wrO] [rYO] [wr]
+[6$QO] [eQO] [eTO] [eQO] [eTO] [eQI] [6$QGC] [Qe] [eT] [Qe] [eT] [Qe]
+[6$QO] [eQO] [eTO] [eQO] [eTO] [eQI] [6$QGC] [Qe] [eT] [Qe] [eT] [Qe]
+[30%O] [0WO] [rWO] [0WO] [rWO] [0W] [30%OD] [0WO] [rWO] [0WO] [rWO] [0W]
+[%O30f] [0W] [rWO] [0W] [rWO] [0WI] [30u%G] [0W] [rWO] [0W] [Wra] [0W]
+[6u] p S 0 e T e 0 6 0 [euS] T [epD] 0
+[S6pf] 0 e T e 0 6 0 [epf] T [eOG] 0
+[%OD] ( [WS] r [WOa] ( [%Oa] ( W r [WYO] (
+[a%YOD] ( [WS] r [WOa] ( [5YOD] ( [WS] r [WOa] (
+[$Ia] [*Ip] Q e Q * $ * Q e Q *
+$ * Q e [uQTS] * [$TIua] * [QTIp] e [QTIO] [ru*O]
+3 7 0 W 0 7 3 7 0 W 0 7
+3 7 0 W [0I] 7 [3u] 7 [0O] W [0a] 7
+[6u] p S 0 e T e 0 6 0 [euS] T [epD] 0
+[S6pf] 0 e T e 0 6 0 [epf] T [eOG] 0
+[%OD] ( [WS] r [WOa] ( [%Oa] ( W r [WYO] (
+[a%YOD] ( [WS] r [WOa] ( [5YOD] ( [WS] r [WOa] (
+[$Ia] [*Ip] Q e Q * $ * Q e Q *
+[$Ip] * Q e [uQTS] * [$TIua] * [QTIp] e [QTIO] *
+[t%YO] [(W] [(W] [%TOS] [(W] [(W]
+[(WOuf] % [(W] % [(W] % [tsYIOG]
+[6xHLV] H k L k H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] n [kx] n [kx] n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[3xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f G H [30G] f [rWYDZ] f G H G f
+[@$fx] f G H G f [2%GC] f G H G f
+[6xHLV] H k L [6ek] H [uWTG] H k L k H
+[fOSG] H k L k H [uTOG] H k L k H
+[6fSHL] 6 6 6 [60WDHZ]
+[6kx] 0 n t [kx] n [kx] n [kx] 6 n [kx] [0t] n [kx] 6 n [etujQC] b [jC] b [jC] b [jC] b [jC] b [jC] b
+[37xHZV] f G H [30G] f [rWYD] f G H G f
+[aOD] f G H G f [rYOD] f G H G f
+[3D] f [3G] H [30G] f [rWYD] f G H G f
+[$fx] f G [6$*QH] G f [%GC] f G [%(QWH] G f
+[6H] L x V * 0 W T u [euTO]
+[6SL] [DZ]
+[0kn] Q e t [jb]
+[3HV]
+[0rWY]
+3 [DZ]
+[W0ryfx] [GC]
+[6H] L x V
+[euTO]
+[6SL] [DZ]
+[0kn] Q e t [jb]
+[3H] k x V
+[0rWY]
+3
+[W0ry]
+[euTH] V f x
+S L
+[rWYH] V D Z
+a k
+[wryG] C d z
+S L p j
+[euTG] C d z
+S L
+[0wrf] x a k
+f x h v
+[QETG] C P T I P
+G S J G L  ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("This is what falling in love feels like - JVKE",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ G-D-a-I-
+o-D-S--
+[r(QYI]-O-P-a S D f
+[0wrG]-k-L-Z-x-
+C----
+[7rYIP]--DI-D-
+[YI18tp]--SD-I-
+[!*TOua]--I DI-D-
+[uoa$QS]--I SD-I-
+[7rYIP]-O[(Qra]aO[(Qra]aO[(Qra]-
+[YI18tp]OO[(Qta]aO[(Qta]aO[(Qta]-
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[0ruWO]-
+[$Quoaf]-[uoa$QD]-[$Quoa]-O-I
+[aDGJ]-[aDGJ]-a[aDGJ]-[aDGJ]-
+[DGsj]-[DGsj]-s[DGsj]-[DGsj]-
+[fSH]-[fSH]-S[fSH]-[fSH]-
+[Sfh]-[Sfh]-S[Sfh]-Q[WSfh]-Q
+[aYDGJ]-T[aYDGJ]-Q[aDGJ]-[aWDGJ]-Q
+[YDGsj]-T[YDGsj]-Q[DGsj]-T[YDGsj]-T
+[fYSH]-T[fYSH]-T[fYSH]-T[fYSH]-T
+[YSfh]-T[YSfh]-Q[Sfh]-IO-a
+[7aDGJ]-[7aDGJ]-[7aDGJ]-I[7O]-[7s]
+[DG8sj]-[DG8sj]-[DG8sj]-I[8O]-[8D]
+*-f[*D]-S[*a]-*-[*D]
+Q-f[QD]-S[Qa]-I[QO]-a
+[7aD]-[7aD]-[7aD]-G[7aDH]-[7l]
+[8sD]-[8sD]-[8sD]-G[8sDH]-[8Z]
+[f*H]-x [f*HZ]-L [*Hfk]-G [f*H]-[*Z]
+[Qfh]-x [fhQZ]-L [fhQL]-Z[Qfh]-
+C----
+[7rYIP]--DI-D-
+[YI18tp]--SD-I-
+[!*TOua]--IDI-D-
+[uoa$QS]--ISD-I-
+[7rYIP]-7OaaO[7a]aO[7a]-7
+[YI18tp]O[18]OaaO[18a]aO[8a]-[!*]
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[u!*O][!*][@(]
+[30uoaf]-[30uoaD]-[$Quoa]-[u$QO]-
+[7rYIP]-7O[(Qra]aO[(Q7ra]aO[(Q7ra]-7
+[YI18tp]O8O[t(QS]SS[8t(QD]GD[8t(QS]a8
+[!*Ouaf]-[0ruaWOD]-[WO0rua]-[0ruWO]-
+[uoaf]-[uoaD]-[uoaS]-[uoaD]-
+[7kGC]-7 [r(QDZ]-7[(Q7rak]-7 [7r(QIG]-7
+[18paDH]-8 [t(QDZ]-8[8t(QSL]-8[(Qt]-8
+[!*Ouaf]-*[0ruaWOD]-* [*WO0rua]-*[0ruWO]-*
+[30uoaf]-[30uoaD]-[$Quoa]-[u$QO]-
+[7kGC]-7 [r(QDZ]-7[(Q7rak]-7 [7r(QIG]-7
+[18psDH]-8 [t(QDZ]-8[8t(QSL]-8 [(Qt]-8
+[!*Ouaf]-*[0ruaWOD]-* [*WO0rua]-*[0ruWO]-*
+[30uoaf]-[30uoaD]-[$Quoa]-O-I
+[aDGJ]-[aDGJ]-a [aDGJ]-[aDGJ]-
+[DGsj]-[DGsj]-s [DGsj]-[DGsj]-
+[fSH]-[fSH]-S [fSH]-[fSH]-
+[Sfh]-[Sfh]-S [Sfh]-[Sfh]-
+[DGak] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Xue Hua Piao Piao (Chorus)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ [e$QTI] * e * [$r] [*T] [eu] [*T]
+[p$QISG] [*G] e [*f] [TS]f[*S]f[Gej] *
+[30afOH] [7a] [Wa] [7S]f[S6pf]a[0S] T r
+[$QTep]I[*u]I0*7*[$p]I[*u]Ie [*G]
+[u!*OS] [%a] [0S] [%a] [!S] [%f] [0j] [%H]
+[p$QISG] [*G] e [*f] [TS]f[*S]f[Gej] *
+[30afOH] [7a] [Wa] [7S]f[S6pf]a[0S] T r
+[$QTep]I[*u]I[ep] [*I] [6upTS]a[0S] [Ta] [0f]G
+[u*TO]S[Wa] [uS] W [*S]a[WS]f[uj]H[WG]f
+[p$QISG] [*G] e [*f] [TS]f[*S]f[Gej] *
+[30afOH] [7a] [Wa] [7S]f[S6pf]a[0S] T r
+[$QTep]I[*u]Ie * [$Ip][TI][*ru][TI]e *
+[u*TOS]a[WS] u W [*Lx][HL][WGk][HL]u W
+[%T][*u]W--S [0uWTOS] f-u
+[$u] [*I] [eG]G[*f] [$SG] [*a] [ep] [*O] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Xue Hua Piao Piao (Meme)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 40 -- tempo overides the delay
+
+    shared.scr = [[ Q I-u TuTuI-
+u r r TuTrT--
+eQ0Q--eQ0Q-I
+TrT-r T u p O
+Q I-u TuTuI-
+u r r TuTrT--
+eQ0Q--eQ0Q-I
+TrT-r T u p O ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Rick Roll (Meme)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ [4ips]-4 [oad] 5-5-
+[3oad]-3 [psf] 6-[6h]gf
+[4ips]-4 [oad] 5-5-
+[3oa]-3-6 o [6p]s-
+[4ips]-4 [oad] 5-5-
+[3oad]-3 [psf] 6-[6h]gf
+[4ips]-4 [oad] 5-5-
+[3oa] s [ps]-6--
+4-p s 4 s d a
+5po--5-$-
+4 p p a [4s] p-o
+[5h]-h d 5-$-
+4 p p a [4s] p s d
+5 a p o 5-$-
+4 p p a [4s] p o-
+[5d] d d f [5d]-$-
+[4s]-4-4 d [4f] s
+[5d] d [5d] f [5d]-[5o]-
+4-4-[4p] a [4s] p
+5 d [5f] d 5-opsp
+[4f]-[4f]-[5d]--opsp
+[3d]-[3d]-[6s]-ap opsp
+[4s]-d [5a]-po-o
+[3d]-s 6--opsp
+[4f]-[4f]-[5d]--opsp
+[3h]-a [6s]-ap opsp
+[4s]-d [5a]-po-o
+[3d]-[6s] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Super Idol (Full)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ d d D d s d
+[(o] [EYs] [(P] o (
+[EYP] ( [qs] [tis] [qs]
+d [qs] [tiP] [qs] [9d]
+[eyP] [9o] o [9P] [eyo] [9P]
+[wo] [yod] [wd] D [wd]
+[yos] [wP] [(d] s [EY] [(d]
+o ( [EYo] [(P] [qp]
+[tip] [qp] d q [tid] q
+[^P] q E Y y
+i p d
+c ^ i [@(g]
+[EYd] [(s] P [(s] [EYd] [(P]
+[4qips] [et] [qi] o [qi]
+[etu] [qi] [29d] [qeyd] [9s]
+d 9 [qeyo] 9 [wi]
+[Ey] [5w] w [Eyi] w
+[@(g] [EYd] [(s] P [(s]
+[EYd] [(P] [4qs] [et] [qi]
+o [qi] [etu] [qi] [^d]
+[Eqd] [^S] d ^ [EJ] q
+[^j] e [qg] 9 [^o] 9
+[4p] ^ [@P] [w(P] [^p]
+P ^ [(d] @ [4qips]
+[ets] [qP] s q [etp] q
+[29iP] [qeyP] [9p] P 9
+[qeyi] 9 [wo] [Ey] [5w]
+w [Eyo] [wp] [@(YP]
+[EYP] [(p] P ( [EYd] (
+[4qs] s [ets] [qP] s [qP]
+[etp] [qs] [^P] q E t
+y i p s g j l c
+d d D d [^s] d
+[@(o] [EYs] [(P] o (
+[EYP] ( [4qs] [ets] [qs]
+d [qs] [etP] [qs] [29d]
+[qeyP] [9o] o [9P] [qeyo] [9P]
+[5wo] [Eyd] [wd] D [wd]
+[Eys] [wP] [@(d] s [EY] [(d]
+o ( [EYo] [(P] [4qp]
+[etp] [qp] d q [etd] q
+[^P] [qE] y [^i] p y i [^p] d
+[Eqi] P [qd] g [^PJ] [Eqd] [^d]
+D [^d] [Eqs] [^d] [@(o]
+[EYs] [(P] o ^ [(P] @
+[4qis] [ets] [qs] d [8s]
+[qP] [4s] [29ipd] [qeyP] [9o]
+o [6P] [9o] [2P] [5wo]
+[Eyd] [wd] D [9d] [ws] [5P]
+[@(id] s [EY] [(d] o ^
+[(o] [@P] [4qip] [etp] [qp]
+d 8 [qd] 4 [yi^P]
+[qEP] ^ J ^ [qEP] ^
+[^J] [Eqg] [^d] g [^d]
+[Eqs] [^P] [@(o] [EYs] [(P]
+o ^ [(P] @ [4qis]
+[ets] [qs] d [8s] [qP] [4s]
+[29ipd] [qeyP] [9o] o [6P]
+[9o] [2P] [5wo] [Eyd] [wd]
+D [9d] [ws] [5P] [@(id] s
+[EY] [(d] o ^ [(o] [@P]
+[4qp] [etp] [qp] d 8
+[qd] 4 [yi^P] [qEP] ^
+J ^ [qEP] ^ [^J]
+[qEP] ^ J ^ [qEP] ^
+[@P] D J ^ ( q w
+[(h] ^ [4p] s g 8 q [wh]
+[ed] [qs] [4P] [29]
+[qeyP] 9 J 9 [qeyP] 9
+[5wJ] [yEP] w J 9
+[wP] 5 [@P] D J ^ ( q
+w [(h] ^ [4p] s g 8
+q [wh] [ed] [qs] [4P]
+^ P J
+P J [q^E] [q^E] [q^E]
+[q^E] P o h [(Ey]
+d s P [(Eys] [(Eyd] P
+s [qet] [qet] i o [qeti]
+u [qeti] d [qet] [qetd] s
+d [qet] o [qet] i [Ewy]
+[Ewy] w [Eyi] w
+[(g] [Eyd] [(s] P [(s]
+[Eyd] [(P] [qs] [et] [qi]
+o [qi] [etu] [qi] [^d]
+[Eqd] [^S] d ^ [EJ] q
+[^j] e [qg] 9 [^o] 9
+[4p] ^ [@YP] [w(P] [^p]
+P ^ [(d] @ [4qips]
+[ets] [qP] s 8 [qp] 4
+[29yiP] [qeyP] [9p] P 6
+[9i] 2 [5wyo] [Ey] w
+9 [wo] [5p] [@(YP]
+[w(P] [^p] P ^ [(d] @
+[4qips] s [ets] [qP] g [8P]
+[qp] [4s] P ^ ^ ^
+[^Y] u i I o O p P a s S d ^ D f g G h H j J k l L ^ z Z x c C v V b B n m L ^ z Z x c C v V b B n [^?]
+d d D d [^s] d
+[@(o] [EYs] [(P] o (
+[EYP] ( [4qs] [ets] [qs]
+d [qs] [etP] [qs] [29d]
+[qeyP] [9o] o [9P] [qeyo] [9P]
+[5wo] [Eyd] [wd] D [wd]
+[Eys] [wP] [@(d] s [EY] [(d]
+o ( [EYo] [(P] [4qp]
+[etp] [qp] d q [etd] q
+[^P] [qE] y [^i] p y i [^p] d
+[Eqi] P [qd] g [^PJ] [Eqd] [^d]
+D [^d] [Eqs] [^d] [@(o]
+[EYs] [(P] o ^ [(P] @
+[4qis] [ets] [qs] d [8s]
+[qP] [4s] [29ipd] [qeyP] [9o]
+o [6P] [9o] [2P] [5wo]
+[Eyd] [wd] D [9d] [ws] [5P]
+[@(id] s [EY] [(d] o ^
+[(o] [@P] [4qip] [etp] [qp]
+d 8 [qd] 4 [yi^P]
+[qEP] ^ J ^ [qEP] ^
+[^J] [Eqg] [^d] g [^d]
+[Eqs] [^P] [@(o] [EYs] [(P]
+o ^ [(P] @ [4qis]
+[ets] [qs] d [8s] [qP] [4s]
+[29ipd] [qeyP] [9o] o [6P]
+[9o] [2P] [5wo] [Eyd] [wd]
+D [9d] [ws] [5P] [@(id] s
+[EY] [(d] o ^ [(o] [@P]
+[4qp] [etp] [qp] d 8
+[qd] 4 [yi^P] [qEP] ^
+J ^ [qEP] ^ [^J]
+[qEP] ^ J ^ [qEP] ^
+[@P] D J ^ ( q w
+[(h] ^ [4p] s g 8 q [wh]
+[ed] [qs] [4P] [29]
+[qeyP] 9 J 9 [qeyP] 9
+[5wJ] [yEP] w J 9
+[wP] 5 [@P] D J ^ ( q
+w [(h] ^ [4p] s g 8
+q [wh] [ed] [qs] [4P]
+[^E] P J
+P J P
+J P [(J] w E y
+h
+[qg] w e t Y h p
+s [^P] q E t y  ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Tab = Window.NewTab("Anime")
+local Section = Tab.NewSection("Anime and cartoons")
+
+local Button = Section.NewButton("Demon Slayer (forgot name lol)",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ [dg]--[gj]--
+[sf]----
+[Pd]----
+P----
+[ypg]--j--
+[tpf]----
+[Eipd]----
+[dz]----
+g f 
+[ypg]--j--
+[tpf]----d s 
+[Eipd]--g--
+[eipsj]----J j 
+[wyPJ]--z--
+[qypj]----h g 
+[E0oh]--d--
+[eupdfj]--S-g f 
+[9pdg]--j e y i 
+[6psf]--[tu]--d s 
+[^Pid]--g q E y 
+[qsgj]--[iP]-p J j 
+[wdgJ]--z y o P 
+[9dgj]--[tip]--h g 
+[EPdh]--d y i P 
+[edfj]--[upS]--gf
+[yipg]-f-[dj]-p-
+[tipg]-f-d-p ds
+[Eid]-f-d-p-
+g-f-d-p gf
+[yipg]-f-[pdj]-p-
+[tpsl]-f-d-p zl
+[Eidz]-f-d-p-
+g-f-d-p-
+[^j]-g-f-p-
+j-g-f-p-
+[9i] q e y [9p] q e y 
+[9u] q e y 9 q e y 
+[^i] q e y [^y] q e y 
+[^i] q e y [^o] q e y 
+[4tip] 8 q e [4t] 8 q e 
+[4ti] 8 q e 4 8 q e 
+[3t]-8 0 [3e]-8 0 
+[3t]-8 0 [3ig]-[8uf] 0 
+[2ipdg] 6 9 0 q e y u 
+i u y e q 0 9 6 
+^ q E t y i P s 
+d s P i [yoh] t E q 
+[4psgj] 8 q w e t i o 
+p o i t e w q 8 
+[3sfjl] 8 0 e t 0 e t 
+u----
+[9eyi]----y----
+[9ei] o p-
+[^qeyip]--[yi]--[yi]----
+y--
+[8wtosfh]----
+[sl]----
+[18]0wtuosfhl-1[ig] [uf] 
+[2ipdg]-[ey] 9 [2pdgj]-[ey] 9 
+[1uosf]-[wt] 8 1-[wtyd] [8ts] 
+[^yipd?]-[qE] ^ [^Pidg?]-[qE] ^ 
+[4psgj]-[et] q 4-[etPJ] [qpj] 
+[5dhPJ]-[Ey] w [J5dhz]-[Ey] w 
+[4pdgj]-[et] q 4-[etoh] [qig] 
+[P3odh]-[Ewy] 0 [P3yod]-[Ewy] 0 
+[6pdfj] 6 [0ey] 6 [0eT] 6 [0eu] 6 
+[^ey] ^ q E [ydz] E [qdz] ^ 
+[^dz] ^ [qdz] E [yfx] E [qgc] ^ 
+[6sgjl] 6 q e [tsl]-[hv] [gjzc] 
+[29] 9 e y i y e 9 
+[E5y] 5 9 w [EJdhz] w 9 5 
+[6fjSL] 6 [0dz] e [Tfx] e [S8j] 6 
+[29jlcb]-9 E [ip] E q 9 
+[EY18o]--[Y4tp]--
+[^eyi] ^ q E [ydz] E [qdz] ^ 
+[^dz] ^ [qdz] E [yfx] E [qgc] ^ 
+[6sgjl] 6 q e [tsl]-[hv] [gjzc] 
+[29] y e q 9 6 [4gc] [2hv] 
+[5jb]-i [wo] [Eyp]-[5gc] [hv] 
+[6jb]-i [eo] [tup]-[6gc] [hv] 
+[7jb]-i [wo] [ryp]-g h 
+[^j]-[dz]-[fx]-[gc]-
+[5jb]-5-[E9wy]-5-
+[E9wyi]-5-[E9wyo]-[5PJ]-
+[1osfh]-8-[0wt]-8-
+[13e]EtyuiopP-[ts]-
+[4psgj]-[qpsgj]-[et]-[qPJ] [psgj] 
+4-q-[et]-[4ts]-
+[3oadh]-[0oadh]-[Ewy]-[0pj] [Sofh] 
+6-6-[0tig]-[6uf]-
+[2ipdg]-9-[ey]-[9ipdg]-
+[18osfh]-[8ig]-[wtuf]-[8g] [psgj] 
+6-6-[0etu]-6-
+[6i]-[6u]-[0ey]-[6t]-
+[^ey]-^-[Eqyd] [uf] [^ig]-
+[^osfh]-[^ts]-[wtuos]-[^tuos]-
+[6psfj]-[psfj]-[!*Sofh]-[Sofh] [ipdg] 
+[29]-6 9 [29yi] [18tu]--
+[E5y]-5 9 [Eyd] [9uf] [5ig]-
+[18osfh]-[8ig] w [tuf] w [8ig]-
+[P4isg]--[4P]-[4ip]----
+j H 
+[Irdj]--L--
+[pfTH]----G f 
+[ypG]--j--
+[GL]----z L 
+[Irdz]--C--
+[eISL]----k j 
+[Wyak]--G--
+[gTSHL] O S g H-j H 
+[QSGj] T I p [SL]--
+[0fH] T u O S-G f 
+[9pdG] e T p [Sj]--
+[GL]----z L 
+[G7kz] Q r y [IC]--
+[f*HL] W T u O-L k 
+[G9j]-e y [Iup]-y e 
+[Iup]-y e [Iup] [IG] [ypj] [eSL] 
+[30dz]-0 r u r [0SL] [dz] 
+[H3fkx]----[$%uf]-
+[6fjSL]-[efjSL]-[Tu]-[edz] [fjSL] 
+6-e-[Tu]-[6uf]-
+[%DGak]-[WDGak]-[rYI]-[WSL] [Hagk] 
+[!*f]-*-[Wipj]-[*OH]-
+[$SGpj]-Q-[TI]-[QSGpj]-
+[H30afk]-[0pj]-[ruOH]-[0pj] [fSHL] 
+[!*]-*-[uWTO]-*-
+[!*p]-[*O]-[WTI]-[*u]-
+[29TI]-9-[eyIG] [OH] [9pj]-
+[H29afk]-[9uf]-[Oruaf]-[O29uaf]-
+[f!*SHL]-[fSHL]-[H4qagk]-[Hagk] [SGpj] 
+[$Q]-* $ [$QIp] [30uO] [30]-
+[7yI]-7 Q [yIG] [QOH] [7pj]-
+[H30afk]-[0pj] r [uOH] r [0pj]-
+[6pdfj]--[6d]-[6pS]----
+[29j] [29p] d [29p] [29j] [29p] d [29p] 
+[18f] [18p] d [18p] [18j] [18p] f [18p] 
+[^d] [^p] j [^p] [^g] [^p] d [^p] 
+[^j] [^p] g [^p] [^d] [^p] g [^p] 
+[29j] [29p] d [29p] [29j] [29p] d [29p] 
+[18f] [18p] d [18p] [18j] [18p] f [18p] 
+[^d] [^p] j [^p] [^g] [^p] d [^p] 
+[^j] [^p] g [^p] [^d] [^p] g [^f] 
+[29g] [29p] d [29p] [29j] [29p] d [29p] 
+[18f] [18p] d [18p] [18j] [18p] d [18s] 
+[^d] [^i] p [^i] [^g] [^p] d [^p] 
+[^j] [^p] d [^p] [^j] [^p] J [^j] 
+[5J] [5d] h [5d] [5z] [5d] g [5d] 
+[6j] [6s] g [6s] [6j] [6s] h [6g] 
+[7h] [7a] d [7a] [7d] [7o] a [7o] 
+[6j] [6p] S [6p] [^EJ] [%W] [$QG] [4qg] 
+[@(PDG] ^ ( Q [EJ]-(-
+[*Sg] E T i P-[*D] S 
+[7IPD] Q E Y [IG]--
+[DJ]----k J 
+[%Dk] ( W r [YZ]--
+[^SGJ] Q E T I-H G 
+[7H] Q E Y [ID]--
+[g^PDJ] q [EY] q [Ey] q [ri] q 
+[7EY] Q E Y [PD]-[PD]-
+[PD]-[PD]-g-G-
+[^PS] Q E T I-H [PG]----
+^--
+[r%Y]-(-[raID]-(-
+[^Oid]-[qD]-[yg]-P-
+[(PSGJ]-E-[YIP]-E-
+[ru*WO]--[u$QTP]--
+[7EYI] Q E Y [PD]-[PD]-
+[PD]-[PD]-g-G-
+[^PS] Q E T [IS]-H [PG]----
+^-G H 
+[%DJ] ( [WG] [rH] [YDJ]-G H 
+[^SJ] Q [EG] [TH] [ISJ]-G H 
+[8SJ] W [tG] [YH] [OSJ]-C V 
+B-[DZ]-[gc]-[GC]-
+[%JZB]-[%D]H[(Wk]ZHkZV[%D]H[(Wk]Z
+HkZV% [(Wa]--% [(Wak] 
+[g!*OSH]-*-[iWTO]-*-
+[!*E]rTYiIOPa-[TS]-
+[$PSGJ] $^[*PSGJ]QETITEQ[*ak]^[$PSGJ]^
+$ $^*QETITEQ[*TS]^$^
+[4sODH] 4%[8sODH]*WtitWq[8PJ]%[4dgOH]%
+^ ^*qETi[IPG]iTE[qig]*^*
+[@IPDG] @$[^IPDG](QEYEQ([^IG]@^ 
+[g!OSH] !4[%IG]*qW[Tig]Wq*[%IG]4[!PJ]4
+[^Sg] ^*qETi[iTP]iTEq*^*
+[^I]-[ETi]-[^Y]-[^T?]-
+[%EY] %7(WrY[YOD]Y[rig]Wq7[IG]%7
+[g!OSH] 4%[*TS]qWT[iWTOS]q*%[!TS]4%*
+[g^PSJ] * [qgPSJ] E [9dgOH] q [dgWOH] [ydIPG] 
+[@(]-^ [@(] [@(YI] [!*Ti]--
+[r%Y] %7(WrY[YOD]Y[rig]W[qIG]7%*
+[g!OSH] !4[%IG]*qW[Tig]Wq7[%IG]4!4
+[@(IPDG]--[E29yi]--[!*ETi]-
+[18tWY]-8-[Wt]--
+[r%QY]--[YD] [ig] [IG]-
+[g!*OSH]-[IG]-[ig]-[IG]-
+[a$ISG]--a-[$IP]----
+J--
+[rH] I [PJ] D [DL]-J-
+H-J J--G-
+[rH] i [OJ] S L-J-
+H-J G--S-
+[ES] i [OG] [SG]--S-
+S-G-H-G-
+[(GL] E Y I [Pk]--
+[*J] E T [iH] P-G-
+[7PDG] Q E Y I-G--
+H-J-[gSH]-
+* W T i O-H--
+J-L-H-
+[7SGJ]-E Y [IP]-Y E 
+[IP]-Y E [IP]-Y E 
+[ru*WO]--S--
+[u$*ES]--J--
+[7DH] Q [rJ] Y [IL]-J-
+H-J J--G-
+[7H] q [WJ] T [iL]-J-
+H-J G--S-
+[^S] q [WG] [TG] i-S-
+S-G-H-G-
+[(k] E Y I [PJ]--
+[*H] E T [iJ] P-[DG]-
+8-W-t-W-
+Y----
+[r%QY]--Y i I-
+[i!*TO]-I-i-I-
+[r$TI]----
+rTIaSGkLCkLCr-
+[$QE]----
+[QIGJ] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Gurenge - Demon Slayer",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = 0.070 -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [8tsfh]-[wG]-[tuh]--8-
+[9ypdh]-[eG]-[Iyh]--9 a 
+[0oah]-[rG]-[uoaf]--0 [pd] 
+[9y]-e-[yI]-[oa] I [yd] 
+[18usf]-8-[wr]-[sf]-h 
+[G9eydj]----[afh]-j 
+[30afk]-[29]-[30]-[29] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [29yp]e[29yp]e
+[30oaf]-[0h]-[ruG]-d [0f] [Ipd] 
+[29]-e-[eyo] [up] [up]o[9up] [ps] 
+[18oa] u8-[wr]--0-
+[29] [ey]Q[yo]p[9w][Ia]-[Qp] [Iwa] [epd] 
+[30oaf]-[0h]-[ruG]-d [0f] [Ipd] 
+[29]-e-[eyod] [hk][Gj][hk][Gj][9hk] [jl] 
+[18hk] [sh]w-[tu]--0 h 
+[29pdG]-[epdG]-[eyopdh] [dj]-9 h 
+[30afj]-[0fh]-[ruaf]-h [0k] [Gj] 
+[29] [Ip]e[Ip] [Ieyop]o[Ip]-a9 [oh] 
+[18afj]-[8fh]-[wtaf]-h [8fz]-
+[29] pep [eyop]op Ioy [eoh] 
+[30afj]-[0fh]-[ruaf]-h [0k] [Gj] 
+[29]-e[Gj] [Geyodk]-[Gdk] [9z] k 
+[18sfj]-[8sfh]-[wt]-8 w [th] 
+[29pdG]-[epdG]-[eyopdh] [9pdj]QeyIpdG
+[8tsfh]-[wG]-[tuh]--8-
+[9ypdh]-[eG]-[Iyh]--9 a 
+[0oah]-[rG]-[uoaf]--0 [pd] 
+[9y]-e-[yI]-[oa] I [yd] 
+[18usf]-[18]-[18] [sf] [18] h 
+[G29dj]-[29]-[29] [afh] [29] j 
+[30afk] [30ru] [30ru] [30ru] [30uf] [30IG] [30oh] [30pj] 
+0757[30yod]-[yod]-[afk]-
+[1psfj]3[5ak]8[wtdz] [8ak] [tpj]w[0ak][8ak]tw[0oh]8
+[G2pdj]$[6ak]9[eydz] [9ak] [ypj]e[Qak][9ak]ye[Qyd]9
+[3uoaf]5[7oh][0oh][ru] [0yd] [yud]r[wuf]0[uoh]r[wuf]0
+[G2djz]$69[Geysjl] 9 [Gyak]eQ[9pj]ye[Qoh]9
+[1osfh]358[wt] [8oh] tw[0pj]8[tak]w[DG0pj]8
+7@$7[rQIG] [7pj] rQ[(ak]7[rdz]Q[(afhk]7
+[30]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30yp]e[yp][29e][yod] [30] [yod] [29] [3afk]030
+[1psfj]3[5ak]8[wtdz] [8ak] [tpj]w[0ak][8ak]tw[0oh]8
+[G2pdj]$[6ak]9[eydz] [9ak] [ypj]e[Qak][9oh]ye[Qoh]9
+[D7oah]@$7[Qrpj] [G7ak] rQ[(ak]7[rhv]Q[k(GC]7
+3570[rudkz] 0 [uafk]rw[0pfj]ur[woh]0
+[1osfh]358[wt] [8oh] tw[0pj]8[tak]w[0pj]8
+[9ey]--[ey] [ey]-[ru]-
+[30]-[29]-[30]-[29] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [29yp]e[29yp]e
+[30oaf]-[0h]-[ruG]-d [0f] [Irupd] 
+[29]-e-[eyo] [up] [up]o[9up] [eyps] 
+[18oa] u8-[wr]-8 w r 
+[29] [ey]Q[yo]p[9w][Ia]-[Qp] [Iwa] [epd] 
+[30oaf]-[0h]-[ruG]-d [0f] [Irupd] 
+[29]-e-[eyod] [hk][Gj][hk][Gj][9hk] [eyjl] 
+[18hk] [sh]8-[wr]-8 w [rh] 
+[29pdG]-[epdG]-[eyopdh] [dj]-[269afk]-
+[30] [fj][0ruh][fj] [0rufj]j[fj] [fj]j[rufj] [0h]f
+[30] [fj][0ruh][fj] [0rufj]j[fj] [fj]k[ruj] [0h] 
+[30] z[0ruz][fz] [0rul]k[fl] kj[rufk] [0j]h
+[18oaf]-[8wt][afh] [8wt] [afj]-[eyafk] 9 
+[30] [fj][0ruh][fj] [0rufj]hG-f[ru] [0d] 
+[30] [fj][0ruh][fj] [0rufj]j[fj] l [eyafk] [9d] 
+[30afk]-3[70sl] [3afk] [70] [3sl] [70afk] 3 
+[30]-[30][yod]-[yod]-[afk]-
+[1psfj]3[5ak]8[wtdz] [8ak] [tpj]w[0ak][8ak]tw[0oh]8
+[G2pdj]$[6ak]9[eydz] [9ak] [ypj]e[Qak][9ak]ye[Qyd]9
+[3uoaf]5[7oh][0oh][ru] [0yd] [yud]r[wuf]0[uoh]r[wuf]0
+[G2djz]$69[Geysjl] 9 [Gyak]eQ[9pj]ye[Qoh]9
+[1osfh]358[wt] [8oh] tw[0pj]8[tak]w[DG0pj]8
+7@$7[rQIG] [7pj] rQ[(ak]7[rdz]Q[(afhk]7
+[30]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30yp]e[yp][29e][yod] [30] [yod] [29] [3afk]030
+[1psfj]3[5ak]8[wtdz] [8ak] [tpj]w[0ak][8ak]tw[0oh]8
+[G2pdj]$[6ak]9[eydz] [9ak] [ypj]e[Qak][9oh]ye[Qoh]9
+[D7oah]@$[7pj][Qr] [G7ak] rQ[(ak]7[rhv]Q[k(GC]7
+3570[rudkz] 0 [uafk]rw[0pfj]ur[woh]0
+[1osfh]358[wt] [8oh] tw[0pj]8[tak]w[0pj]8
+[9ey]--[pdj] [pdj]-[afk]-
+[18]-r-[uo]----
+[29]-e-[yo]----
+[30]-r-[yo]----
+[29]-e-[yI]-o I y 
+[18]-r-[uo]----
+[29]-e-[yo]----
+[30]-r-[yo]----
+[29]-e-[yI]-o I y 
+[18]-r-[uoafh] [afh]--[pdG] 
+[29pdG]-e-[yod] [od]-a-p 
+[30]-r-[uoafh] [afh]--[Gdj] 
+[G29dj]-e-[Iyk] [Gdk] o[dG]I [yh] 
+[18]-r-[uoafh] [afh]--[pdG] 
+[29pdG]-e-[yod] [od]-a-p 
+[30]-r-[uoafh] [afh]--[Gdj] 
+[G29dj]-e-[Iyz] [dhl] okI [yh] 
+[18]-r-[uoafh] [afh] 8 w [tpdG] 
+[29pdG]-e-[yod] [od] 9ae [yp] 
+[30]-r-[uoafh] [afh] 0 r [Gudj] 
+[G29dj]-e-[Iyk] [Gdk] o[dG]I [yh] 
+[18sfh]-j[18] k [18sfk]-[18] d 
+[29pd]-[pd][29] [dz] [29djz]-[29] j 
+[30pfj] [30][pj][30] [30ak] [30afk] [30IG] [30oh] [30pj] 
+[30]-[30][yod] [30] [yod][30]-[30afk] [30] 
+[psfj] [ak] [18dz] [18ak] [18pj] [ak][8ak]-[wtoh] 
+[G29pdj] [ak]9[dz] [eyak] [pj] [2ak][ak][69] [2yd] 
+[30uoaf] [oh][0oh]-[ryud] [yd] [3uf] [70oh] [3uf] 
+[G29djz]-9[Gsjl] [ey] [Gak] 2[pj][69] [2oh] 
+[18osfh]-8-[wtoh]-[1pj] [58ak] [DG1pj] 
+7-7[IG] [Qrpj]-[7ak] [$7dz] [7dhkz] 
+[30]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30yp]e[yp][29e][yod] [30] [yod] [29] [3afk]030
+[1psfj]3[5ak]8[wtdz] [8ak] [tpj]w[0ak][8ak]tw[0oh]8
+[G2pdj]$[6ak]9[eydz] [9ak] [ypj]e[Qak][9oh]ye[Qoh]9
+[D7oah]@$7[Qrpj] [G7ak] rQ[(ak]7[rhv]Q[k(GC]7
+3570[rudkz] 0 [uafk]rw[0pfj]ur[woh]0
+[1osfh]358[wt] [8oh] 18[1pj]8[1ak]8[1pj]8
+2$69[ey] [9pdj] [ypdj]eQ9[yafk]eQ9
+135[8t][wt] [8os] tw[0t][8o][ts][wo][0u][8t]
+[2y]$6[9y][ey] [9pd] ye[Qy][9p][yd][ep][QI][9y]
+[3u]57[0u][ru] [0af] ur[wu][0a][uf][ra][wo][0u]
+[2y]$6[9y][ey] [9pd] ye[Qy][9p][yd][ep][QI][9y]
+[1t]35[8t][wt] [8osh]-[1pj]8[tak]w[G0pdj]8
+[29]--[pd] [pd]-[af]-
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r
+[30ru]-[29ey]-[30ru]-[29r] [30ua]r[30ua]r ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Button = Section.NewButton("Bink's Sake",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ [oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-hg-Dg--
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-Dg-dD---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-hg-Dg--
+J-hg-Ds-dD-
+J-hg-Ds-DP-
+s-DP-Ps-dD-H
+h-Dg-dD---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+[oh][PJ][PJ][PJ]--[sl]-[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+P-oi-Yt-yY-
+P-oi-Yt-YE-
+t-YE-Et-yY-O
+o-oi-Yi--
+P-oi-Yt-yY-
+P-oi-Yt-YE-
+t-YE-Et-yY-O
+o-Yi-yY---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[oh][ig]-[YD][ig]---
+[PJ]-[oh][ig]-[YD][ts]-[yd][YD]-
+[PJ]-[oh][ig]-[YD][ts]-[YD][EP]-
+[ts]-[YD][EP]-[EP][ts]-[yd][YD]-[OH]
+[oh]-[YD][ig]-[yd][YD]---
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[YD]-----
+[oh][PJ][PJ][PJ]---[sl]--[PJ]
+[oh]-[PJ]-----
+[oh][PJ][PJ][PJ]--[sl]-[PJ]
+[oh]-[YD] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Sparkle - Kimi no nawa (Test)",function()
+  -- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
+
+shared.scr = [[ [0s] d h s d h [us] d h s d h
+[qs] d h s d h [is] d h s d h
+[ws] d h s d h [os] d h s d h
+[os] d h s d h [os] d h s d h
+[0s] d h s d h [us] d h s d h
+[qs] d h s d h [is] d h s d h
+[ws] d h s d h [os] d h s d h
+[os] d h s d h [os] d h s d h
+[30s] d h s d h [us] d h s d h
+[4qs] d h s d h [is] d h s d h
+[5ws] d h s d h [os] d h s d h
+[6es] d h s d h [ps] d h [5ws] d h
+[30s] d h s d h [us] d h s d h
+[4qs] d h s d h [is] d h s d h
+[5ws] d h s d h [os] d h s d h
+s d h [8s] d h [ws] d h [ts] d h
+[3s] 8 d w h [us] [ud] [uh] [us] d [yh] [ys] d [th]
+[qts] d h s d h [4s] d h s d h
+[5s] 9 d w h [us] [ud] [uh] [us] d [yh] [ys] d [th]
+[etus] d h [us] d [oh] [ys] d h [ts] d h
+[3s] 8 d w h [us] [ud] [uh] [us] d [yh] [ys] d [th]
+[qts] d h s d h [4s] d h s d h
+[5s] 9 d w h [ys] [yd] [yh] [ys] d [uh] [ys] d [th]
+[8wts] d h s d h [1s] d h [wts] d h
+[3s] 8 d w h [us] d h [us] d [ih] [us] d [yh]
+[qts] d h s d h [4s] d h s d h
+[5s] 9 d w h [us] [ud] [uh] [us] d [yh] [ys] d [th]
+[etus] d h [us] d [oh] [ys] d h [ts] d h
+[3s] 8 d w h [us] [ud] [uh] [us] d [yh] [ys] d [th]
+[qts] d h [ts] d h [ts] d h [4s] d h
+[5s] 9 d w h [ys] d h [ys] d [uh] [ys] d [th]
+[8wts] d h s d h [1s] d h [wts] d h
+[3t] [8y] [0o] [0s] [td] [uh] z l u h
+[48qg] [4t] [8y] [qo] [qs] [td] [ih] s d h
+[5ws] d h s d h [ws] t d y o h s d j
+[5wh] d s o y t w 5
+[3t] [8y] [0o] [0s] [td] [uh] z l u h
+[4qg] [4t] [8y] [qo] [qs] [td] [ih] s d h
+[5ws] d h s d h [ws] t d y o h s d h
+[wyosdh] [ws] d y h o l z v m
+[3t] [8y] [wo] [tf] [yf] [of] [tf] y [od] [td] y s
+[4s] 8 q t y o t y o [qt] y o
+[5t] [9y] [wo] [tf] [yf] [of] [tf] y [od] [td] y [os]
+[6sf] 0 e [tf] y [oh] [td] y o [ts] y
+[3t] [8y] [wo] [tf] [yf] [of] [tf] y [od] [td] y [os]
+[4s] 8 q t y o t y o [qt] y o
+[5t] [9y] [wo] [td] [yd] [od] [td] y [of] [td] y [os]
+[8s] w t t y o t y o [18t] y o
+[3t] [8y] [0o] [tf] [yf] [of] [tf] y [og] [tf] y [od]
+[4s] 8 q t y o t y o [4t] y o
+[5t] y o [tf] [yf] [of] [tf] y [od] [td] y [os]
+[6sf] 0 e [tf] y [oh] [td] y o [ts] y o
+[3t] [8y] [0o] [tf] [yf] [of] [tf] y [od] [td] y [os]
+[4s] 8 q t y o t y o [4t] y o
+[5t] y o t [yd] [od] [td] y [of] [td] y [os]
+[8s] w t t y o t y o [18t] y o
+[3t] [8y] [0o] [0s] [td] [uh] [z] [ulm] t [hv]
+[48qgc] [4t] [8y] [qo] [qs] [td] [ih] s d h
+[5ws] d h s d h [ws] t d y o h s d j
+[5wh] d s o y t w 5
+[3t] [8y] [0o] [0s] [td] [uh] [z] [lm] u [hv]
+[48qgc] [4t] [8y] [qo] [qs] [td] [ih] s d h
+[5ws] d h s d h [ws] t d y o h s d h
+[5ws] d h [ws] d y h o l z v m
+[0tus] f f f [of] d d s
+[qtos] [tip]
+[wryoa] f f f [yaf] d d s
+[eupf] f h d [ps]
+[0tos] f f f [of] d d s
+[qtos] [ip] t
+[wryoa] d [yad] f d s
+[8ts] w y [tu]
+[0tu] f [of] g f [4d] 8
+[es] [qtio] [ep]
+[59wry] f f f [wf] y o a d d s
+[60tsf] f h [euod] s
+[38wtu] f f f [wf] t o d d s
+[4s] 8 e [es] [4q] s
+[59w] d d d [rd] f [ryod] s
+[5ws] [5t] y 9 o w s s d h l z v m
+[9wry] [38wsh] [sh] [sh] [0tosh] [sh]
+[4qsh] g [qetif] d [5ws] s [wtos] d
+[5wf] d [wyod] [5adh] 9 [wadh] [radh] y [ah]
+[6adh] 0 [tg] [ef] u t [4f] q q e [td] [is]
+[3d] 0 0 r u r [6sfhl] e [edz] [ufx] p [ugjlc]
+4 q [qfx] [esl] u [tsl] 8 t [tfx] [usl] o [udhz]
+5 w y o y [6sfhl] e [edz] [ufx] p [ugjlc]
+4 q [fx] [tgjlc] i [thv] 8 t [tgc] [ufx] o [udz]
+[5dz] w [wfx] [ydz] o [sl] [^Esg] [Jc] m []
+[dgPJ] l [zcm] [iEP] s [dgl] [^E] [iEP] s [dgl]
+[^E] t [yis] [6] 8 [9qt] [5] [59w] y o
+[wyoa] d h k z v [o]
+[wyoadh] [5w] f g [18fh]
+[8wtuo] [38w] j [48qh] g f
+[etid] [4q] s d [59wf] [wyo]
+[%ad] 0 r [Wru] [6euos] [0t]
+[5wuo] [0t] [4qios] [qio] e t
+[io] [qo] s [38wuod] [0o] t u
+o [uos] d [I29pf] [9ey]
+[$Ipd] 9 e [eyQI] [5wosdh] [ws] y o
+a [5pj] 9 r [18osfh] 8 0 w
+[tuo] [wtpj] [4osfh] 8 e [qt] g f
+[eid] t s d [59wf] [wyo]
+[%Hafk] 0 r [ruWO] [60esfhl] [eu]
+[5wdz] [sl] [wo] [oh] [2sjl] 6 q [9ips] e y
+[ips] [eyoh] [sl] [38wz] [0os] t u
+[os] [tusl] [dz] [4qfx] [qios] e t
+[dz] [tio] [qtshl] [4qio]
+[qtio] [eips] [5wsl] [ws] [yd] h
+[yos] d h s d h [5adk] 9 w [wa] d h
+[yoa] d h [ya] d h [8sfl] w u s d h
+s d h s d h s d h s d h
+s d h s d h [qs] e d t u h s d h
+s d h s d h s d h s d h
+[0s] d h [os] d h [9s] e d t i h s d h
+s d h s d h s d h s d h
+[us] d h [ts] d h [wts] d h s d h
+s d h s d h [ws] [yoad]
+[tuos] d f g
+f d s
+[ro] a [euos] d f g
+f d s f
+[wuo] a [qtis] d f g
+f d s
+[ti] q o [wyos] d f g
+f d s o
+y w [0s] t o d f g
+f d s
+[oa] r [euos] d f g
+f d s f
+[woa] u [qs] t p d f g
+f d s [is] p
+[ts] d s s [wh] y o s s
+p s d o t w
+t o j [wyoh] s s s
+g f s d o [5t] y o
+[wt] y o [9t] y o [5wt] y [9t] y o
+[wt] y o [9t] y o [5t] y o [9t] y o
+[wt] y [9t] y o [5t] y [5t] y o
+[18t] y o [29t] y o [5t] y t y o
+t y o t y o [5t] y o [5t] y o
+[18t] y o [29t] y o [5tyo] [59yo] w r y
+[5p] 7 r 9 [we] 9 r 7 [5a] 7 y 9 r w y 9 o 7 [5s] [7o] [9y] [wt] [9y] [7o] [5d] [7a] [9o] [wy] [9o] [7a]
+[5f] [7a] [9o] [wu] [9o] [7a] [5g] [7a] [wo] [9i] 7 5 [5odh] [579w] r y o a d
+[9wh] a o a [wyh] k z v n [ryo] [wyoadh]
+[5wryo] [5sl] [ak] [1sfhl] [80wtuo] [hv]
+[0wuhlv] [3sfhl] [ak] [4sgjl] [468qeti] [jb]
+[qetphv] [qti] [sfhl] [sfhl] [5dhkz] [wyo] [dkz] [fx]
+[%Hgkzc] [ruWO] [fx] [dz] [6sfl] [eu] [sl]
+[5sfl] [wuo] [4sgjl] [tipsg] [qdz] e t
+[psl] [etioh] [3sfhl] [sfhl] [0tu] [dfhz]
+[tosfhl] [0tu] [G2djz] [9eyI] [Gdjz] [fx]
+[$gc] [eyQI] [fx] [dz] [5sl] [wtyo] [ak] [sl]
+[5dhkz] [wyoad] [1fhl] [8s] [0f] [wh] [8l] [wv]
+[uv] [th] [wl] [8sl] t [wak] [4gjl] [8s] [qg] [ej] [tl] [qb]
+[tv] [ih] [tl] [qhv] [8sl] [4sl] [5hkz] [9d] [wh] [rk] [ydz] [rfx]
+[%Hkc] [0g] [rH] [Wk] [ufx] [rdz] [6fl] [0s] [tf] [eh] [ul] [ts]
+[5fhl] [ws] [wf] [uh] [ol] [us] [4gjl] [qs] [eg] [tj] [qsl] [tdz]
+[esl] i t [eoh] q 8 [3fhl] [8s] [wf] [0h] w [tsl] [0dz] w
+[tsl] u t [0hv] 0 8 [2gjl] [6s] [9g] [9j] [esl] [qpj]
+[esl] 9 y [ehv] q 9 [2gjl] [9s] [9g] [ej] [qsl] [epj]
+[9sl] y [eg] [qj] [9l] [6s] [5fhx] [59wuos] [59wuos] [59wuos]
+[59wuos] [wgc] y o [fx] [5dhkz] [579wry]
+[wryodhkz] [sl] [5] [ak] [1sfhl] t y o
+t y o t y o t y o t y o
+t y o [4t] [8y] [eoh] t y o
+t y o t y o t y o t y o
+[380t] y o [pj] [26qosh] t y o
+t y o t y o t y o t y o
+t y o t y o [5uf] t y o
+[9wt] y o t y o [5yod] t y o
+[9wt] y o t [1y] [5o] [0tus] t y o
+t y o t y o t y o t y o
+t y o [5t] y o [18t] y o t y o
+t y o t y o t y o t y o
+t y o [wt] y o [8us]
+m [xv] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+
+local Button = Section.NewButton("Renai Circulation - Kana Hanazawa",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by -)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ f--H
+-S-S-a f-f-fa
+S-S-a f-H-fa
+S-S-a f-f fG
+f-f fS H--
+f-f fG H-f-aS
+f-f fG H-f-S
+f Sf-S f Sf-f
+jH f-S H--
+f-f fG H-f-aS
+f-f fG H-f-S
+f Sf-S f Sf-f
+jH f-G f-f G
+Hffff fff f f HH-
+ffH fff fH f a
+f af-afffH HHj
+Hf-f HjH jH-H
+fffff H faa-ff
+Hf fHf f fHHf-
+HfffafffaffH f-
+a ffH ffffGf--
+H j H j k-H j
+H j k-k j H j
+Hf f fS Hf f fS
+f-f-S H--
+H j H j k-H j
+H j k-k j H j
+Hf f fS Hf f fG
+ff f fH f--
+k-H-G-H-
+G f G H--H
+L-H-G-f-
+f G H G----
+k-H-G-H-
+G f G H--H
+L-H-f-H-
+f----fa
+S-S-a f-f-fa
+S-S-a f-H-fa
+S-S-a f-f-G
+f-f-S H--fa
+S-S-a f-f-fa
+S-S-a H-f-fa
+S-S-a f-f-G
+f-f-H f ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Spy x Family ED - Kigeki (Comedy)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ [WT6ru]-[r%QYI]-[I7eyp]-OIOI
+[6O] [6u] [eTO]IOI[%O] [%u] [tWT] [%Y]
+[!*u] [*u] [rWI] O [7p] a [%(QO]-
+[6u] S [7a] O [!*u] D [$Qf] I
+[6u]-[0eT]-[I7a] S O[%YI]-
+[6uS] 6 [Teua]-[%YO] % [Wtu]I%O
+[!*u][WT]* [Wr] [@7] a S [37f] D
+6 [6S] [Tea]S[@(7a]-[rQY] p [0$*O]--
+I [Y30a]-I [W70u]IOI
+[6eTO] [6u] [eTO]I[6O]I[t%WO] [%u] [Wt] [%T]Y
+[!*Wru] [*u] [rWI] [*O]p[W7r] aO[%W9r]-
+[W6u] [pS] [O7a] [uO] [!*Wu] [aD] [$QSf] [eI]
+[6ru]-[60W]-[I7a] S O[r%I]-
+[6uS] 6 [Teua] 6 [%YO] % [Wtu]I%O
+[!*u][WT]* [Wr] [@7] a S [37f] D
+6 [6S] [Tea]S[@(7a]-[rQY] p [0$*O]--
+S [30a]-a [^EI] u
+[OSeuf]-[aWYG]-[OGeryj]Sa[yfWEOH]Iu
+[60rWO]-[eT]-[r%(QO][uS][ID][WOrf][ID][rO]
+[ru*WS]-[0ry] [Sf][Sf][QS7ef] [DG] [0f^WH] [Sf]
+[$*T0p]-[%(QYa]-[O269a] [Sf] [7a@(D] [Sf]--
+[uf][uf][uf][ISG]
+6[uf] [0eWTS][uf] [%uf] [TOS]-[(QWtuf][uf][%uf][aIG]
+[!*][uf] [0rWTS][uf] [30uf] [TOS]-[9rQWOH] [OH][afk]
+6[pj] [0eWTOH][IG] [%uf] [sIG]-[(QWtuf][IG]%[OH]
+[@(Dpj]-[%OH]-[OH][7pj] [ak][OH][^O][IG][uf][ISG]
+6[uf] [0eWTS][uf] [%uf] [TS]-[(QWtuf][uf][%uf][IG]
+[!*I][uf] [0rWTS][uf] [30uf] [TOS]-[9rQWOH][OH][OH][afk]
+6[pj] [0eWTOH][IG] [%uf] [sIG]-[(QWtuf][IG]%[OH]
+[@(Dpj]-[%OH]-[7pj] [ak][OSH]^ [SL][Gak]
+6-[WTO0ea][pS][29][aD][Sf] O[ruO][0et] [$S][Ia]-
+[0eTS]--[7eus]-[WI9ra]-[QT9up]-
+[0rYO] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Suzume no Tojimari - Trailer OST",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 35 -- tempo overides the delay
+
+    shared.scr = [[ y-p-piuy t et
+y uioiu t--
+y-p-piuy t et
+y uioiu y--
+[9y]-Op E[ep]iuy t [9e][8t]
+[9y] uioi[8u] [9t]--6
+[2y]-Op E[ep]iuy t [9e][8t]
+[9y] uioi[6u] [9y]----
+[2d]zljcxljzjhljcxl
+jzjlcxlzjlhjxjlh
+[2d]zljcxljzjhljcxl
+jzjlcxlzjlhjxjlh
+[2y]dspgfspdpospgfs
+pdpsgfsdpsopfpso
+[2y]dspgfspdpospgfs
+[2p]dpsgfsdpsopfpso
+[2y]dspgfsp[2d]pispgfs
+[2p]dpsgfsd[2p]Pio[2d]osi
+[^ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^Pid]y[tf][eg][ih][ug][tf]e[yis]ewtEiut
+[5ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^P1id]y[tf][eg][18h][ug][tf]e[29pd]ewteiut
+[^ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^Pid]y[tf][eg][ih][ug][tf]e[yis]ewtEiut
+[5ipd]yte[ij]ut[ej][yg][ef][wd]t[es]i[up][ts]
+[^P1id]y[tf][eg][18h][ug][tf]e[29pd]ewteiut
+[^y][id][Es][qp][ig][Ef][qs][iP][Ed][qp][^i][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][4qp]s[io][tp][6f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][6ep]s[io][tp][18f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][28p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][6ep]s[io][tp][18f][tp][qd][8o]
+[^y][id][Es][qp][ig][Ef][qs][ip][Ed][qp][^o][4s][18p][og][tf][ws]
+[29p][pd][yp][es][pg][yf][es][9d][4qp]s[io][tp][6f][tp][qd][8o]
+[5y][yd][ws][9p][yg][wf][9s][yp][wd][9p][5o][2s][^p][yg][wf][9s]
+[6p][ud][ep][0s][eg][0f][6s][3d][6p][6P][6i][6o][6d][6o][6s][6i]----
+z-
+b-bcxz l jl
+z xcvcx z ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Doraemon no uta - Doraemon OP",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 55 -- tempo overides the delay
+
+    shared.scr = [[ [9d]SapaSdSa[9p]aS
+dSapaS[9d]Sap-
+[0f]dSaSdfdS[0a]Sd
+fdSaSd[eS]dDf-
+[wk]Lz[0h]jk[Qj]kL[9G]hj
+[0h]jk[*f]Gh[9G]hj[7d]fG
+[6f]DdSsaPpOoIi
+u-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9-6-
+[9d] d [6S] S [9a] a [6p] p
+[9a] a [6S] S [9d]-[6d]Sd
+[0f] a [7a]-[0f] a [7a]-
+[0a] S [7d] a [0f]-6-
+[9d] d [6S] S [9a] a [6p] a
+[9G] G [QG]fG[wh]-7 d
+[0a] P [0a] d [6S] d [6f]-
+[9d]-6-9 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[Qy]-6-9er[6T]yu
+[9I]iI[6y] e [9I]uI[6y] e
+[0o]Io[6u]-[T6u] [T6u] [T6u]-
+[0o]Io[6u] e [0o]Io[6u] e
+[9I]oO[6p]-[I9p] [I9p] [I9p]-
+[5a]Pa[9P]aP[5a] S [5d] a
+[9p]Op[6O]pO[9p] S [9d] p
+[6S]sS[0s]Ss[6S] f [6f]dS
+[9d]-6-9 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [0u] o [6S] S [0a] p
+[wo]-[7o] I [wr] T Q y
+[0u]-6-6 6 7 *
+[9e] y [*y] I [7a] I [6p]-
+[9p] a [6p] I [0o] I [6u]-
+[0r] u [6u] o [0S]-[6a] p
+[0o] o [6I] u [0T]-[6u]-
+[9y]-9-0-Q-
+[wa]-[wa] p [9o]pa[9p]-
+[0u] I [0O] u [6p]-6-
+[0a]-[6p]-[0u] I [0O] u
+[6p]-6-e-6-
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9 9 0 Q
+[wa]-[wp]-[wo]-w-
+[eu]-[eS] a [ep] a [ep] o
+6-p a I--u
+[9y]-6-9 d [Qf] G
+[wh]Gh[9G] h [wG] f 9 g
+[eG]gG[9g] G [ef] d 9-
+[wa]-[wa]-[eS] d [ef]-
+[wa]-[wa]-[eS] d [ef] [9d]----
+[9y] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+    
+    end)
+
+local Button = Section.NewButton("Gravity Falls",function()
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ g d p d g d p d
+g s p s g s p s
+f S p S f S p S
+f S p S f S j-
+[9d]----f-
+g----
+[qj]--h--j-
+s----
+[^d]----f-
+g--f--
+[8h]--j--
+[6h]--g--
+9-g-g-g-
+j-j-h-g-
+q-j-j-j-
+h-j-h-g-
+^-g-g-g-
+j-j-h-g-
+8-j-j-j-
+6-L-L-L-
+9-g-g-g-
+[qj]-j-h-g-
+^-J-J-J-
+[8h]--l--
+[6j]--L--
+[9gz] d p d f S p S
+d--[yd] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Red Swan - Yoshiki feat. HYDE (AOT S3 OST)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 60 -- tempo overides the delay
+
+    shared.scr = [[ g--f--
+h--g----
+g--f--
+h--g----
+[4ig] 8 q e [uf] q 8-
+[4oh] 8 q [eig]-q 8-
+[6ig] 0 e t [uf] e 0-
+[6oh] 0 e [tig]-e 0-
+[^ig] q E y [uf] E q-
+[^oh] q E [yig]-E q-
+[^ig] q E T [uf] E q-
+[^h] q E T s-P-
+[4P] 8 q [ep] p q 8-
+4 8 [qp] [ep] p qo8i-
+[6p] 0 e t-e 0-
+6 0 e t-e [0p] p
+[^P] q E [yp] o E q-
+^ q E y-E [qp] p
+[^P] q E [Tp] o E q-
+^ q E T s E [qP]-
+[4P] 8 q [ep] p q 8-
+4 8 [qp] [ep] P [qs] 8-
+[6p] 0 e t-e 0-
+6 0 e t-e [0p] p
+[^P] q E [yp] o E q-
+^ q E y-E [qp] p
+[^P] q E T-E q-
+[8ig] q E T [oh] E q-
+[48qig]--[uf]--
+[oh]--[ig]----
+[60eig]--[uf]--
+[oh]--[ig]----
+[^Eqig]--[uf]--
+[oh]--[ig]----
+[^Eqig]--[uf]--
+h-g g g-h-
+[4sh] 8 q [esg]-q 8-
+4 8 [qg] [eg] g qf8d-
+[6sf] 0 e t-e 0-
+6 0 e t [sg] e [0sh]-
+[^dh] q E [ydg]-E q-
+^ q E [yd] d Efqg-
+[^g] q E T-E q-
+[^Sh] q E T [Sh] E q-
+[4sh] 8 q [esj] [sj] q 8-
+4 8 [qj] [ej] j qh8g-
+[6fj] 0 e t-e 0-
+6 0 e t-e [0j] j
+[^J] q E [yj] h E q-
+^ q E y-E [qj] j
+[^J] q E [Tj] h E q-
+^ q E T g E [qh]-
+[48qh]--g ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("One Summer's Day - Spirited Away",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 40 -- tempo overides the delay
+
+    shared.scr = [[ [ig][sh]jx----
+[ud][ah]l----
+[ys][pg]J--[Tf][Ij][az]----
+[qru]----
+f f f f d f j
+f dd----
+[eyo] d d d d s d h
+d s a s--pa
+[wtis] s s s s--pa
+[qrus] s s s a s-pa
+[0eys] s s s s h-s
+[9wtd]--[0ey]--
+[4eru] f f f f d f j
+[5f] [qd]dw y----
+[10ey] d d d d s d h
+[1d] [6s] [9a] [ws]--pa
+[9eis] s s s [yis]--pa
+[0yuos] s s s [ta] s-pa
+[YOqts] s s s [is] h-gD
+[wtyid]--[Oruf]-[Orig]-
+[4psdh] [8psdh] q [epsdh] [O3ah] [7dg] [0sf] [Wad]
+[6ad] [0sf][ps]e t [E5yi] e [E8wtu] [uf][ig]
+[4psdh] [8psdh] [qpsdh] [epsdh] [O3ah] [7dg] [0sf] [Wad]
+[6ad] [0sf] e t u t [ups] [td]
+[2I]sf6 9 [Qp] [es] Q t e
+[59etu]-[eti]-[59qey]-s d
+[9etI]af--p s--
+[5tyip] 9 q e y j k f
+[el] [ul] [sz] [ul] [wk] u [af] [uh]
+[qj] [tj] [ph] [tg] [0h] t o o
+[(wto] i i Y [9qti]-t i
+[(Yro]--[riO] [59eyo]-[pj] [ak]
+[6s]fjl[0sfjl] [tdz] [0sl] [5a]fhk0 [ruf] [0oh]
+[4p]sfj[8psfj] [eoh] [8ig] [3o]sdh8 w [oh]
+[(oh] [wig] [tig] [wYD] [9ig] q [toh] [qOH]
+[*PJ] [qOH] [EOH] [qoh] [8OH] 0 [Eoh][OH]0[PJ]
+[4s]gHl8 W 8 @ 8 [wOH] [8PJ]
+[2s]gHl9 q W t [Wsl] [qak] [Wsl]
+[5dz] 9 w r y h l k
+[qerul]--f f d f j
+[if]paj j j j h j z
+k-j [dhl]
+uopduopduopd[uk]opd
+[Ih]paf[Ij]pafIpafIpaf
+[yhv]iosyios[ygc]ios[ysl]ios
+[udz]opduopd[ufx]opduopd
+[4qeru]----
+[30wtyo]----
+[ti@(P]----[ti@(P]-
+[6eyups]----
+[qf]eud f j f--
+[0d]wys d h d--pa
+[9s] e y u I a s d
+[I7pf] Q e r [0yO]-j k
+[ejl]f[ujl]f[skz]f[ujl]f[whk]f[uhk]f[af]s[uh]s
+[qgj]s[tgj]s[pfh]s[tdg]s[0h]s[td] [os] o
+[(wto] i i Y [9qti]-t i
+[(Yro]--[riO] [59eyo]-[pj] [ak]
+[6s]fjl[0sfjl] [tdz] [0sl] [5a]fhk0 [ruf] [0oh]
+[4p]sfj[8psfj] [eoh] [8ig] [3o]sdh8 w [oh]
+[(oh] [wig] [tig] [wYD] [9ig] q [toh] [qOH]
+[*PJ] [qOH] [EOH] [qoh] [8OH] 0 [Eoh][OH]0[PJ]
+[4s]gHl8 W 8 @ 8 [wOH] [8PJ]
+[2s]gHl9 q W t [Wsl] [qak] [Wsl]
+[5dz] 9 w r y h l k
+[qerul]-q e r u p a
+j k gjkx ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Tab = Window.NewTab("Classical")
+local Section = Tab.NewSection("Classical")
+
+local Button = Section.NewButton("Für Elise - Beethoven",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 90 -- tempo overides the delay
+
+    shared.scr = [[ f D f D f a d
+s [6p] 0 e t u
+p [3a] 0 W u O
+a [6s] 0 e u f
+D f D f a d
+s [6p] 0 e t u
+p [3a] 0 W u s
+a [6p] 0 e f D f D f a d s [6p] 0 e t u p [3a] 0 W u O a [6s] 0 e u f D f D f a d
+s [6p] 0 e t u
+p [3a] 0 W u s
+a [6p] 0 e a s d [8f] w t o g f [5d] w r i f d [6s] 0 e u d s [3a] 0 u u f u f f x D f D
+f D f D f D
+f D f a d s
+[6p] 0 e t u p
+[3a] 0 W u O a
+[6s] 0 e u f D
+f D f a d s
+[6p] 0 e t u p
+[3a] 0 W u s a
+[6p] 0 e a s d
+[8f] w t o g f
+[5d] w r i f d
+[6s] 0 e u d s
+[3a] 0 u u f u
+f f x D f D
+f D f D f D
+f D f a d s
+[6p] 0 e t u p
+[3a] 0 W u O a
+[6s] 0 e u f D
+f D f a d s
+[6p] 0 e t u p
+[3a] 0 W u s a
+[6p] 0 e ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Consolation No. 3 - Liszt",function()
+  -- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 40 -- tempo overides the delay
+
+    shared.scr = [[ !qTWiTWqTWiT
+!qTWiTWqTWiT
+!qTWiTWqT[Wg]iT
+gwTEiT[EP]wsT[ES]igT
+gQtWitWQDt[Wg]YDt
+[!S]qTWiTWqTWgiSTJ
+HqTWiTWqT[Wg]iT
+[!g]wTEiT[EP]wsT[ES]igT
+gwTEiT1wfT[EH]uht
+[4g]WitOitWitHOgiL
+lWitOitWi[tH]Oi
+[4H]WyrOy[rd]WDy[rg]OHy
+[$H]QYEIYEQPY[Es]IdY
+D g G H j l-J
+[%J]qTWiTW[qH][TL][Wl][if][Tg]
+JHsSGgoOPsSg
+[%g]wTEiT%QDt[Wg]YDt
+[!S]qTWiTWqTWiT-
+qTWiTWqT[Wgc]iT
+[!g]cwTEiT[EPJ]w[sl]T[ESL]i[gc]T
+gcQtWitWQ[DZ]t[Wgc]Y[DZ]t
+[!SL]qTWiTWgqSTJ[WH]ciLTB
+[!V]qTWiTWqT[Wgc]iT
+[!gc]wTEiT[EPJ]w[sl]T[ESL]i[gc]T
+[gc]wTEiT1w[fx]T[EHV]u[hv]t
+[4gc]WitOitHWgiL[tl]VOciL
+mWitOitWi[ts]Oi
+sEutou[to]EOu[tP]oSu
+sWitOitWi[tl]Oi
+[P4l]fEutou[tfh]E[gH]u[thJ]o[JL]u
+[4jl]eitpite[Jz]i[tgj]p[Jz]i
+[4jl]e[Jz]i[tgj]p[Jz]i[4jl]e[Jz]i[tgj]p[Jz]i
+[3jl]eutpute[kz]u[tlx]p[zc]u
+[3xv]Wu[rzc]Ou[lx]-[kz]-
+[6jl]tpusputp[uf]sp
+fyOuaO[ua]ysO[ud]agO
+ftpusputp[ux]sp
+[H6dx]yOuaO[Huk]y[jl]O[ukz]a[zc]O
+[L6x]TpuSpuT[zC]p[ujL]S[zC]p
+[L6x]T[zC]p[ujL]S[zC]p[L6x]T[zC]p[ujL]S[zC]p
+[%Lc]TO[iGZC]SO[icHV]TW[qJCB]TW
+[%JCB]QYtOYtQ[cHV]Y[tGZC]O[DJZ]Y
+[!Lgc]qTWOTWqTWOT
+!qTWOTWqT[Wi]OT
+i*EwiEE t T i
+i*tWIt-Y i Y
+T*WiTPOgSJHg
+SPOiTWqTW[igc]TW
+[!g]cwTEiT[EPJ]w[sl]T[ESL]i[gc]T
+[!gc]QtWitWQ[DZ]t[Wgc]Y[DZ]t
+[!SL]qTrOTrgqSTJ[rH]cOLTB
+VqTrOTrqTrOT
+[!T]*EQIEQP*IED[QS]JIGEZ
+L*EQIEQ*EQISE
+[u!S]p*e0ue0*e0fu[pS]eG
+fj[Sf]kjL[fj]ZLx[pL]Cxb[Sx]nbL[fb]ZbL[fb]ZbL[fb]ZbL[fb]Z
+[c!LV]qTWiTWq[CB]T[WLc]i[CB]T
+[cV]q[CB]T[WLc]i[CB]T[cV]q[CB]T[WLc]i[CB]T
+[cV] [Lc] [JL] [GJ] [gH] [Sg] [PS] [IP]
+[iO]-[Ti]-[ET]-[QE]----
+[qW] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Canon in D - Pachelbell",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 40 -- tempo overides the delay
+
+    shared.scr = [[ 9 Q e y 6 * 0 e
+7 9 Q r $ 6 * Q
+5 7 9 w 2 $ 6 9
+5 7 9 w 6 * 0 e
+[9G] Q e y [6f] * 0 e
+[7d] 9 Q r [$S] 6 * Q
+[5a] 7 9 w [2p] $ 6 9
+[5a] 7 9 w [6S] * 0 e
+[9dG] Q e y [S6f] * 0 e
+[7ad] 9 Q r [p$S] 6 * Q
+[5oa] 7 9 w [I2p] $ 6 9
+[5oa] 7 9 w [6pS] * 0 e
+[9y]-I-[6p]-o-
+[7I]-y-[$I]-u-
+[5y]-r-[2y]-p-
+[5o]-a-[6p]-o-
+[9I]-y-[6u]-S-
+[7d]-G-[$j]-p-
+[5a]-o-[2p]-I-
+[5y]-d-[6S]--
+[9d] S d y [6T] p u I
+[7y] d S a [$S] G j k
+[5h] G f h [2G] f d S
+[5a] p o I [6u] o I u
+[9y] u I o [6p] u p o
+[7I] a p o [$p] o I u
+[5y] r a S [2d] S a p
+[5o] I u a [6p] a p o
+[9I]-G-[6f]--
+7-d-[$G]--
+[5k]--[2j]--
+[5k]--[6L]--
+[9z]-d-[6S]--
+7-a-[$d]--
+[5d]--2-d-
+[5d]-G-[6f]-j-
+[9j] Ghj Gh[6j]paSdfGh
+[7G] dfG Io[$p]apopIop
+[5o] apo Iu[2I]uyuIopa
+[5o] apa Sd[6p]aSdfGhj
+[9G] dfG fd[6f]SdfGfdS
+[7d] aSd yu[$I]oIuIdSd
+[5a] dSa po[2p]oIopaSd
+[5a] dSd Sa[6S]dfdSdaS
+[9d]--j [6j] k j h
+[7G]--G [$G] h G f
+[5d]--d [2d]-p-
+[5d] s a s [6S]--
+[9d]--j [6j] k j h
+[7G]--G [$G] h G f
+[5d]--d [2d]-p-
+[5d] s a s [6S]--
+[9d] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Comptine d'un autre été (Amélie) - Yan Tiersen",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 47-- tempo overides the delay
+
+    shared.scr = [[ [0u] r [wu] r [0u] r [wu] r
+[9y] r [wy] r [9y] r [wy] r
+[9y] r [Qy] r [9y] r [Qy] r
+[9y] e [Qy] e [9y] e [Qy] e
+[0u] [ro]I[wuo] [ra]s[0ua] r [wu] r
+[9y] [rI]o[wyI] [ro]p[9yo] r [wy] r
+[9y] [rI]u[yQI] [ra]s[9ya] r [Qy] r
+[9y] [eI]u[yQI] e [9y] e [Qy] e
+[0u] [ro]I[wuo] [ra]s[0ua] r [wu] r
+[9y] [rI]o[wyI] [ro]p[9yo] r [wy] r
+[9y] [rI]u[yQI] [ra]s[9ya] r [Qy] r
+[9y] [eI]u[yQI] e [9y] e [Qy] e
+[0uf] r [wu] [ra] [0u] r [wu] r
+[9yd] r [wy] [ra] [9y] r [wy] r
+[9yG] r [Qy] [ra] [9y] r [Qy] r
+[9yG] e [Qy] [ep] [9y] e [Qy] e
+[0uah] r [wu] [rof] [0u] r [wu] r
+[9yah] r [wy] [rod] [9y] r [wy] r
+[9yaG] r [Qy] [Ird] [9yd] r [Qy] r
+[9ypG] e [Qy] [Ied] [9yd] e [Qy] e
+[0ua]f[rk]a[wuf]k[ra]f[0uk]a[rf]k[wua]f[rs]f
+[9ya]d[rk]a[wyd]k[ra]d[9yk]a[rd]k[wya]d[rp]d
+[9yI]a[rG]I[Qya]G[rI]a[9yG]I[ra]G[yQI]a[ro]a
+[9yp]d[ej]p[Qyd]j[ep]d[9yj]p[ed]j[Qyp]d[eo]d
+[0ua]f[rk]a[wuf]k[ra]f[0uk]a[rf]k[wua]f[rs]f
+[9ya]d[rk]a[wyd]k[ra]d[9yk]a[rd]k[wya]d[rp]d
+[9yI]a[rG]I[Qya]G[rI]a[9yG]I[ra]G[yQI]a[ro]a
+[9yp]d[ej]p[Qyd]j[ep]d[9yj]p[ed]j[Qyp]d[ej]
+[0u] [rh]G[wuh] [rk]l[0uk] r [wu] r
+[9y] [rG]h[wyG] [rh]j[9yh] r [wy] r
+[9y] [rG]f[yQG] [rk]l[9yk] r [Qy] r
+[9y] [eG]f[yQG] e [9y] e [Qy] e
+[0u] [rh]G[wuh] [rk]l[0uk] r [wu] r
+[9y] [rG]h[wyG] [rh]j[9yh] r [wy] r
+[9y] [rG]f[yQG] [rk]l[9yk] r [Qy] r
+[9y] [eG]f[yQG] e [9y] e [Qy] e
+[0ux] r [wu] [rk] [0u] r [wu] r
+[9yz] r [wy] [rk] [9y] r [wy] r
+[9yC] r [Qy] [rk] [9y] r [Qy] r
+[9yC] e [Qy] [ej] [9y] e [Qy] e
+[0ukv] r [wu] [rhx] [0u] r [wu] r
+[9ykv] r [wy] [rhz] [9y] r [wy] r
+[9ykC] r [Qy] [Grz] [9y] r [Qy] r
+[9yjC] e [Qy] [Gez] [9y] e [Qy] e
+[0uk]x[rn]k[wux]n[rk]x[0un]k[rx]n[wuk]x[rl]x
+[9yk]z[rn]k[wyz]n[rk]z[9yn]k[rz]n[wyk]z[rj]z
+[9yG]k[rC]G[Qyk]C[rG]k[9yC]G[rk]C[yQG]k[rh]k
+[9yj]z[eb]j[Qyz]b[ej]z[9yb]j[ez]b[Qyj]z[eh]z
+[0uk]x[rn]k[wux]n[rk]x[0un]k[rx]n[wuk]x[rl]x
+[9yk]z[rn]k[wyz]n[rk]z[9yn]k[rz]n[wyk]z[rj]z
+[9yG]k[rC]G[Qyk]C[rG]k[9yC]G[rk]C[yQG]k[rh]k
+[9yj]z[eb]j[Qyz]b[ej]z[9yb]j[ez]b[Qyj]zbv
+[0ruhkx] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Moonlight Sonata",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 30 -- tempo overides the delay
+
+    shared.scr = [[ [!*W]TuWTuWTuWTu
+[7W]TuWTuWTuWTu
+[6e]TueTu[$e]yIeyI
+[%W]tIWTu[%W]TYQtY
+[!%*0]WTWTuWTu[WO]TuO
+[18%WO]YIWYIWYI[WO]YIO
+[!*WO]TuWTu[$ep]TIeTI
+[7WO]ruWru[7eI]rY[ea]rY
+[W30u]ruWruWruWru
+[30w]ruwruwru[wo]ruo
+[29wo]riwriwri[wo]rio
+[18wo]tu[7w]ru[^w]Tu[QI]Tu
+[7QI]ryQry[3wo]rT[50u]rT
+[$QI]ryQry[$QI]ETQET
+[7r]yIryIrYI[ra]YI
+[rs]uo[30r]uo[5wr]uo[30rP]uo
+[7ra]YIrYIrYI[ra]YI
+[rs]uo[30r]uo[5wr]uo[30rP]uo
+[7ra]YIrYI[%ra]yiryi
+[4ra]TOrTO[$ep]TIeTI
+[%7wo]rywry[18QI]eYQeY
+[!*T]Qe*Qe[!*T]QW[*T]qW
+[!$Q]eTeTITIp[TS]IpS
+[4q*TS]OaTOaTOa[TS]OaS
+[$QTS]IpTIp[@(ts]Ip[!*TS]Ip
+[18%YD]IOYIOYIO[18%YD]IO
+[!%*uf]OSuOS[$YD]Ip[5TS]uP
+[%s]tYOtYptYItY
+%tYWtYetYQtY
+[%0]uOSuOfuOSuO
+%0WT0Wu0WT0W
+[%(]eQteYtIYpIs
+[%0]TWuTOuSOfSp
+[%T]ouPoSPfShfJ
+[%I]spDsGDjGljZ
+lGjDGsDpsIpY
+ItYetQe(Q*Qe
+[%8]QWeWQ(Qe*Qe
+[%8]QWeWQ9Qe*Qe
+[%8]QWeWQ[6*]0T*0T
+[$(]eT(eT[%(]Wt(Qt
+[!%*0]WTWTuWTu[WO]TuO
+[18%WO]YIWYIWYI[WO]YIO
+[!*WO]TuWTu[$ep]TIeTI
+[7WO]ruWru[7eI]rY[ea]rY
+[W30u]ruruOruO[ra]uOa
+[@(ra]IprIprIp[ra]Ipa
+[30ra]uOruO[@(ts]IO[!*TS]IO
+[18%YD]IOYIO[!%*uf]OSuOS
+[$yd]IpyIp[%ts]IOtIO
+[!*TS]uOTuOTiO[TS]iO
+[Td]Ip[$QT]Ip[6eT]Ip[$QTs]Ip
+[!*TS]iOTiOTiO[TS]iO
+[Td]Ip[$QT]Ip[6eT]Ip[$QTs]Ip
+[!*TS]iOTiO[$TS]IpTIp
+[@(ra]IprIprIp[30ra]uO
+[*3ep]uO[@(ep]YI[18WO]YI[!*WO]Tu
+[6QI]TYQTY[%WO]TY[$ep]TY
+[%WO]TuWTu[%QO]tYQtY
+[0!%T]WTWTuWTu[%W]Tu%
+[1%W]YIWYIWYI[%W]YI%
+[!%W]uTOuSOfS[%H]fS%
+[%s]DpsIpYIe[%t]WQ%
+[0!%T]uTOuSOfS[%H]fS%
+[%s]DpsIpYIe[%t]WQ%
+[!%0]WTuTW*0WTW0
+%*0W0*%*%3%3
+!--[0!%*WT]--
+[0!%*WT] ]]
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Tab = Window.NewTab("Emotional")
+local Section = Tab.NewSection("Emotional")
+
+local Button = Section.NewButton("Kiss the rain - Yiruma",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 29 -- tempo overides the delay
+
+    shared.scr = [[ osd
+[8d] [wf] [tf] y u--sdf
+[3d] [7h] [0h] w r--hjk
+[6k] [0l] [el] r t z xz l
+[5k] 9 w e r l k h
+[4h] [8j] [qj] w e--hg
+[8g] [wh] [th] y u-s d
+[9f] [eg] [yg] u i-h g
+[3f] 7 0 w r-[wryd]osd
+[8d] [wf] [tf] y u--sdf
+[3d] [7h] [0h] w r--hjk
+[6k] [0l] [el] r t z xz l
+[5k] 9 w e r l k h
+[4h] [8j] [qj] w e--hg
+[8g] [wh] [th] y u-s d
+[9f] [eg] y p [5s] 9 [wa]-
+[8s] w t y u s f h
+[4j] 8 q w e s s a
+[8s] [wj] [th] y u s s a
+[9s] [eh] [yh] [ug] [ig] f f d
+[8d] [wf] [tf] y u s f h
+[4j] 8 q w e s s j
+[3k] [7h] 0 w r s s a
+[8s] [wh] [th] [yg] [wtuf]--d
+[5d] 7 w e r--osd
+[8d] [wf] [tf] y u--sdf
+[3d] [7h] [0h] w r--hjk
+[6k] [0l] [el] r t z xz l
+[5k] 9 w e r l k h
+[4h] [8j] [qj] w e--hg
+[8g] [wh] [th] y u-s d
+[2f] [6g] [9g] 0 q-h g
+[8f] w t y u-[wryd]osd
+[8d] [wf] [tf] y u--sdf
+[4d] [8h] [qh] w e--hjk
+[6k] [0l] [el] r t z xz l
+[5k] 9 w e r l k h
+[4h] [8j] [qj] w e--hg
+[3g] [7h] [0h] w r-s d
+[2f] [6g] 9 p [5s] 9 [wa]-
+[8s] w t y u o s d
+f ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("River flows in you - Yiruma",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 32 -- tempo overides the delay
+
+    shared.scr = [[ [Qj] [TH] [Ij] H [9j] [ef] [uj] d--------
+pS
+[Qj] [TH] [Ij] H [9j] [ef] [uj] d--------
+pS
+[Qj] [TH]jIpHj9p[ef]jup[9d]p
+[6a]S [0d] [Tpf] S [O0a] r u pO
+[Qp] T Iupa[9S] e u Sd
+[6f] 0 T dS[0a] r O-
+[Qp]Sj[TH]jIpHj9p[ef]jup[9d]p
+[6a]S [0d] [Tf] [6L] [0k] [rf] [uk]LkjH
+[Qfj] T I pa[9S] [ru] [up] Sd
+[6f] [0u] [TS] dS[0a] r [uj]kjH
+[Qj]p[Tf]p[Ij]k[Qj]H[9j]p[ef]p[uj]k[9j]H
+[6j]k[0L]z[Tx]L[6k]j[0H] [ra] [uj]k[0j]H
+[Qj]p[Tf]p[uj]k[Qj]H[9j]p[rf]p[uj]k[9j]H
+[6j]k[0L]z[Tx]L[6k]j[0H] [ra] [uj]jk[0j]H
+[$j]p[*f]p[Qj]jk[$j]H[9j]p[ef]p[Tj]jk[9j]H
+[6j]k[0L]z[Tx]L[6k]j[3H] [7a] [Wj]jk[3j]H
+[$j]p[*f]p[Qj]jk[$j]H[9j]p[ef]p[uj]k[9j]H
+[6j]k[0L]z[Tx]L[6k]j[3H] [7a] [WO] u-pS
+[Qj] [TH]jIpHj9p[eH]jup[9d]p
+[6a]S [0d] [Tpf] [6S] [O0a] r u pO
+[Qup] T [up]upa[9S]u[ep]a[yS]uSd
+[6f]u[0S]d[Tf]u[6d]S[0a]u[rd]S[ua] O
+[QS]j [TH]jIp[QH]j9p[ef]jup[9d]p
+[6a]S [0d] [Tf] [6L] [0k] [rf] [uf]Lk[0j]H
+[Qfj] T I pa[9S]u[ep]a[yS]u[9S]d
+[6f]u[0S]d[Tf]u[6d]S[3a]u[7O]a[Wj]k[3j]H
+[$j]p[*f]p[Ij]jk[Qj]H[9j]p[ef]p[uj]jk[9j]H
+[6j]k[0L]z[Tx]L[6k]Lkj[3H]p[7f]p[Wj]jk[3j]H
+[$j]p[*f]p[Ij]jk[Qj]H[9j]p[ef]p[uj]jk[9j]H
+[6j]k[0L]z[Tx]L[6k]Lkj[3H]p[7f]p[Wj]jk[3j]H
+[$j]p[*f]p[Ij]k[Qj]H[9j]p[ef]p[uj]jk[9j]H
+[6j]k[0L]z[Tx]L[6k]j[3H] [7a] [Wj]jk[3j]H
+[$j]p[*f]p[Ij]jk[Qj]H[9j]p[ef]p[uj]jk[9j]H
+[6j]k[0L]z[Tx]L[6k]j[3H] [7a] [WO] u
+[QTp]SjH j H [S0pj] [yf] [Ij] [0d]
+[0pS] [Td] [epf] S [Oua]-p O
+[$T]up* u pa[9S] [eu] [up] Sd
+[6f] [0u] [TS] dS[0a] r u-pS
+[Qj] [TH] [Ij] H [9p]fj[ef] [uj] [9d]
+[6a]S [0d] [Tf] L [0fk] r O p
+[$up] * Q pa[9S] [eu] [yp] Sd
+[6f] [0u] [Tp] dS[3a] 7 [Wu]-
+[$p] [*e] [QT] I [Tpj] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Sadness and Sorrow - Naruto Soundtrack",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 30 -- tempo overides the delay
+
+    shared.scr = [[ 0 r o I-y--
+0 r o I-r--
+[0G]f[ra] o I-y f h
+[8j] w [tf] y u--
+[9h] e y o [IG] [uh] [yj] [ed]
+[wd]hky a y [Qd]Gjy p y
+[0G]f[ra] o I-y f h
+[8j] w [tf] y u--
+[9h] e y u [IG] [uh] [yj] [ed]
+[0f] r o I-y--
+0 r o I-r--
+[0G]f[ra] o I-y f h
+[8j] w [tf] y u--
+[9h] e y o [IG] [uh] [yj] [ed]
+[wd]hky a y [Qd]Gjy p y
+[0G]f[ra] o I-y f h
+[8j] w [tf] y u--
+[9h] e y u [IG] [uh] [yj] [ed]
+[0f] r o I-y--
+0 r o I-[rf] G h
+[8j] [wk] [uf] [wh] 7 [QG] y r
+[0f] r u I o I u y
+[8h] [wj] [uh] [wG] 9 e [Ik] e
+[wd]hky a y [Qd]Gjy p y
+[8j] [wk] [uf] [wh] 7 [QG] y Q
+[0f] r u I o I u y
+[8h] [wj] [uh] [wG] 7 Q [ya] Q
+[6f] 0 e t u p s f
+jlxb--[9pG]-[Qd]-
+[0o]afr o I-y--
+0 r o I-r--
+[0o]aGf[ra] o I-y oafh
+[8s]fjw [tsf] y u s f j
+[9p]dhe y o [Ip]dG[uh] [yj] [ed]
+[wd]hky a y [Qd]Gjy p y
+[0o]aGf[ra] o I-y oafh
+[8s]fjw [tsf] y u s f j
+[9p]dhe y u [Ip]dG[uh] [yj] [ed]
+[0o]afr o I-y--
+0 r o I-[rfx] [GC] [hv]
+[8jb] [wkn] [ufx] [whv] 7 Q [yGC] r
+[0fx] r u I o I u y
+[8sfh] [wj] [uh] [wdG] 9 e [Ik] e
+[wd]hky a y [Qd]Gjy p y
+[8jb] [wkn] [ufx] [whv] 7 Q [yGC] Q
+[0fx] r u I o I u y
+[8sfh] [wj] [uh] [wdG] 7 Q [ya] Q
+[6p]sf0 e t u p s f
+jlxb--[9pG]-[Qd]-
+[0o]afr u o a f h k
+[3f]hkx ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Main Title Sayonara Zetsubou Sensei",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil-- delay overides the ftime
+    shared.tempo = 35 -- tempo overides the delay
+
+    shared.scr = [[ fG
+[3h] 7 0 w [2G] 6 9 [Qd]
+[1f] 5 8 0 w--fG
+[3h] 7 0 [wk] [2G] 6 9 [Qk]
+[1f] 5 8 0 w--ds
+[7d] Q r y I--
+[rk] Y I p a--fG
+[3fh] 7 0 [wa] [2dG] 6 9 [Qk]
+[1sf] 5 8 0 w 0 8 [5f]G
+[3fh] 7 0 [wa] [2dG] 6 9 [Qk]
+[1sf] 5 8 0 w 0 8 [5d]s
+[7d] Q r y I--
+[7k] [(r] [QY] [eI] [ra]--[ak]
+[8pj][ak][0uf] w [to] [us]-[pj]-[oh]
+[9IG] Q e [yp] [Id]-yeQ
+[7uf]Q[rIG]a-y I-[aG]-[ak]
+[7ak](QerYIpaDGjkZCbn--xC
+[uv] a f h [yC] p d [Gz]
+[tx] u o s f--xC
+[0v] r u [on] [9C]Qey--n
+[8x] 0wtuosf-t-
+[2z] 9ey----k
+[0ux] u I o a u I o
+[3u]----0 Q
+[3w] 7 0 7 [2Q] 6 9 [69]
+[10] 5 8 [5t]u[1o]-0 Q
+[3w] 7 0 [7r] [2Q] 6 9 [6r]
+[10] 5 8 [5t]u[1o]--yt
+[7y] 9 Q 9 r--
+[Y7a](Qe----[fx] [GC]
+[0hv] [rGC] [ufx] r [9GC] [efx] [ydz] e
+[8flx] w t [ua] [op]-[fx] [GC]
+[0hxv] r u [rkn] [9GC] e y [ekn]
+[8flx] w t u o--
+[9djz] [Qe] [ey] [yI] [Ip]--
+[3aG] [7fx] 0 w r o u r
+3 5 7 0 w o u-
+[3wu]7 ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+
+local Button = Section.NewButton("Sad Song - We The Kings",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ S H g Q T [IH] g T
+O [SH] D W Y O Y W
+S s S Q T [IH] g T
+O [SH] D W Y O Y W--
+D [*Tg] W T W T
+W [TS] [WD] [8t] W t W t
+W [tS] [WD] [ETg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*g] [QD] [ED] [QS] [EP]
+Q [EO] [QD] [*WTg] W T W [TS]
+[ES] [TS] [ED] [(8t] W t W t
+W [tS] [WD] [*Tqg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*QEg] [QD] [ED] [QS] [EP]
+W T [Ws] [*QES] Q [ES] [QS] [ES]
+[QD] [ETg] [Qs] [W8t] [Ws] [tY] [Ws] [tYS]
+[WD] [tY] [Wg] [^*E] [qD] [ETD] [qS] [ETS]
+[qg] [ETD]S[QD] [$S] D--S
+H g [QET] [QS] [ETH] [Wg] [WT] [qS]
+[TH] [QD] [tWY] [QD] [tYS] [Wg] [tY] [qS]
+[tYH] [Wg] [QET] [qS] [ETH] [Wg] [*WT] [EG]
+[WTg] [qD] [tWY] W [tY] W [tY] [WS]
+[tYH] [Wg] [QET] [qS] [ETH] [WTg] q [*S]
+[TH] [QD] [tWY] [QD] [tYS] [qg] [tY] [QD]S
+[tWYD]S[EP] [QETS] Q [ET] Q [ET] [QO]
+[ETg] Q [s%QD]--D D
+S [DH] [Sg] $ * [QH] g *
+W [TH] D % ( W ( %
+[YS] [Ys] [YS] [$Y] [*T] [QH] g *
+W [TH] D % ( W ( %--
+D [*Tg] W T W T
+W [TS] [WD] t W t W t
+[WS] [tS] [WD] [ETg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [Wg] [QD] [ED] [QS] [EP]
+Q [EO] [QD] [*WTg] W T W [TS]
+[WS] [TH] [WG] [(8tg] [WD] t W t
+[WS] [tS] [WD] [*qtg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*QEg] [QD] [ED] [QS] [EP]
+Q E [Qs] [*QETS] Q [ETS] [QS] [ETS]
+[QD] [ETg] [Qs] [W8t] [Ws] [tY] [Ws] [tYS]
+[WD] [tY] [Wg] [*E] [qD] [ETD] [qS] [ETS]
+[qg] [ETD]S[QD] [*EIS] D--S
+H g [QET] [QS] [ETH] [Wg] [WT] [qS]
+[TH] [QD] [tWY] [QD] [tYS] [Wg] [tY] [qS]
+[tYH] [Wg] [QET] [qS] [ETH] [Wg] [*WT] [EG]
+[WTg] [qD] [tWY] W [tY] W [tY] [WS]
+[tYH] [Wg] [QET] [qS] [ETH] [WTg] q [*S]
+[TH] [QD] [tWY] [QD] [tYS] [qg] [tY] [QD]S
+[tWYD]S[EP] [QETS] Q [ET] Q [ET] [QO]
+[ETg] Q [8sD]--D D
+[tYD] [WD] [qiTS] q [TS] [qS] [TH] [qG]
+[Tg] [qD] [QT] [TS] [QS] [TS] [QH] [TG]
+[Tg] [QD] [*WT] [iS] [WS] i [WP] [iS]
+[WD] [ig] [(EYD] W Y W Y W
+[YS] [Ws] [q*T] q [TS] [qS] [TH] [qG]
+[Tg] [qD] [*QT] [QS] [TS] [QS] [TH] [QG]
+[Tg] [QD] [WTi] [WS] [iS] [WS] [iS] [WS]
+[qD] [%g] [s$WODH]-[8%(]-[8s%(ODH] [SL]
+[OH] [ig]-[$T] [*OH] [Qig]-[*T]
+[WOH] [TYD]-[%Y] [(T] [Wi] ( [%TS]
+[Os] [iS]-[$T] [*OH] [Qig]-[*I]
+[WOH] [TYD]-% ( W ( [%TS]
+[OH] [ig] [QE] [QTS] [EOH] [Qig] [*WT] [qOH]
+[*OH] [4pj] [^*4q] [^pj] [*qpj] [^PJ] [*q] ^
+[(8sl] % [!$^*SL] $ [^*] [$L] [^*l] [$S]
+[^*] [$g] [8@%(] [%D] [8(] % [8(] [%TS]
+[8(OH] [%ig] [$^] [$TS] [^OH] [$ig] [!%*] [4TS]
+[*OH] [4YD] [8@%(] [%YD] [8(TS] [%ig] [8(] [%TS]
+[8(OH] [i%D] [$^] [^TS] [$OH] [!%*ig] 4 [4IG]
+[*ig] [4YD] [8@%(] % [8(] % [8(] [%TS]
+[8(OH] [%ig] [$^] [^TS] [$OH] [!%*ig] 4 [4TS]
+[*OH] [4YD] [8@%(] [%YD] [8(TS] [%ig] [8(] [%D]S
+[8@%(D]S[^P] [@$^*TS] $ [^*] $ [^*] [$O]
+[^*ig] $ [8s@%(D] % [8s%OD]-D D
+L [ZV] [Lc] $ * [QV] c *
+[Wc] [TV] Z % ( W ( %
+[DL] [Dl] [DL] [$S] [*S] [QV] c *
+O [SV] Z W Y O Y W ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+local Tab = Window.NewTab("Rejected Songs")
+local Section = Tab.NewSection("Rejected and Buggy Songs")
+local Button = Section.NewButton("Mixed nuts (SPY X FAMILY OP 1)",function()
+  -- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 55 -- tempo overides the delay
+
+    shared.scr = [[ [QET] P P P P a S D
+[qWTS]-O-[Wqya]-P O
+[(QTO]-I--[(P]-
+[i*O] q W I [$TI] * Q i
+[7rY] Q r [YI] O-P a
+[^OS] q [ED] g [@SG] ^ [(g] G
+[%OS] ( W [rI] S ( W I
+[7pS] [Qd] [rf] [*af]-[qd] [WOS] T
+$ [*P] [QP] [EP] [IP] [*a] [QS] D
+[4iOS] 8 [qO]-[^ia] q [iEP] [^O]
+[@YO] ^ [(I] Q-^ [(P]-
+[i!TO] % * I [$ETI] * Q i
+[7rY] Q r [YI] O [QP] [rS] [7D]
+[^PSH] q E G [@PDG] ^ ( [@I]
+[%Ia] ( [WS] [ra]-[(P] [Wa] [%S]
+[I7ad] Q r 7 [*TI] [WO] [Tp] [*a]
+[7pIS] Q [rS] [7S][3OS]-[7a] [0I] [3a]
+[6upS] 0 [eS] [6S][2pS]-[6a] [9f] [2d]
+[%OS] ( [WS] [%S][i!OS]-[%d] [*S] [!a]
+[p$IS] * Q * [Iep] [*a] [QS] [$d]
+[3oaf] 7 [0f] [3f][pf]6 [0d] [epd] [6S]
+[2ipd] 6 [9d] [2f][dg]5 [9f] [wpd] [5S]
+7 [7O] [7a] [7S] [7S] [7G] [7S] [7a]
+[!p] * [!a] [*S] [!a] * ! [*p]
+[YI7p] 7 7 [D7pj] 7 7 7 [!*H]j
+[OSH]-[!*]-[TSg] [WSG] [*h] [$PSH]-
+[*G] [QH] [*G] [EPS] $ G [4sgH]-
+[8J] [qgk] 4 [dg^J] [qH] [dEH] [^G]
+[@PDH] ^ ( Q-[^G] [(J] [g@SH]
+! % * [!G] [$PSG] * Q $
+[7aD] Q [rD][7D] [^dg]-[qP] [ED] [^g]
+[@SG] ^ [(G][@h] [s%DH]-( [WG] [(H]
+[%DGJ] ( [WG] [(GL] r [(k] [WJ] [(k]
+[7DGJ] Q [rH] [7G] [g*H] W T [*ETO]
+$ [*I] [QO] [*I] [ET] $ I [4tiO]-
+[8P] [qa]-[yi^P] [qO] [yEO] [^I]
+[@EYO] ^ ( ^ Q [^I] [(P] [i@O]
+! % * [!I] [$TI] * Q $
+[7rY] [Qi] [rI] [7O] [yi^P] [qO] [EI] [^Y]
+[@ET] [^I] [(i] [%TI]-[(S] [Wa] [(P]
+% [(I] [WI] [(O] [rIP] [(O] [WI] [%i]
+[!TI] % * [%T] [i!*TP] O [!*TI] i
+[7rYI]-[7rY]-[YI7a]-[7aID]-
+[i^PS] G [^PSH] J [@(PS] H [@(PSG] J
+[a%WDH]-[a%WD] G [a%WDG]-[%Wa] S
+[SG] [*T] [*T] H [gSJ] [!*H] [!*G] g
+[$QPSG]----
+[$GJL] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+    end)
+local Button = Section.NewButton("On my way - Alan Walker",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ [TOSHLfx]--x Z L xWYOaDH
+Z-Z L k--eupSfj
+L--L k j-0ruOaf
+k-k j H--QTIpSG
+j--j H G j*WTuOS
+H-L-L-f WYOsD
+G--G f D-
+[TOf]-S-S----
+r-
+Ya[pk] jH0 r O r 
+7 QG[Ij] [YH]f* Wf[uj] [WH]G
+6 [0f]fu [IG]H0 r O r 
+7 QG[IG] [YH]f* W u [YD]S
+6 0a[uk] [Ij]H0 r O r 
+[rk]k[Ik]k[GL]ZDxT O f Oj
+[ej]j[uj]j[fj]k[Gj]H0 r O r 
+rG[QG] [IG] [YH]f* W u Y 
+6 0 u-W[60eT]TTIOO
+[rT]TT[eI]OO[7QYI]IuI-u
+[%0r]--W[60eT]TTIOO
+[rT]TT[eI]OO[7QYI]Iu[uI] O 
+[Yp]----L 
+[Sx]Hf[HL]SH[fx]H[OZ]D[aL][Dk]ODa[DH]
+[pL]f[Sk][fj]pf[SL]f[uk]f[aj][fH]ufaf
+[Ij]Sp[SG][IG][SH][pj]S[TH]S[OL]S[TH]S[Of]S
+[WD]sOsWs[OG]s[Tf]O[uD]O[TS]O[uSL]O
+[Tfx]SO[SL]TS[Ofx]S[WDZ]Y[rSL][Yak]WY[rOH]Y
+[eSL]u[Tak][upj]eu[TSL]u[0ak]u[rpj][uOH]0uru
+[Qpj]Te[TIG][QIG][TOH][epj]T[*OH]T[WSL]T[*OH]T[Wuf]T
+[%YD]tWt%t[WI]t[*WTu] Y T-
+[!*HLfx] OT[ufx][WDZ][TSL][0fx][k%DHZ] [YDZ][WSL][rak](W7
+[6fjSL] ue[TSL][0ak][epj]*[H3afk] [rak][0pj][WOH]70%
+[$SGpj] [Tpj]Q[epj][*OH][QIG][*pj][f!*OSH] [OSL]T[uSL]W[Tuf]0
+[s%IOG] YW[tIG][(uf][WYD]8[!*OSuf] [TS]0[WS]*0%
+[!*HLfx] OT[ufx][WDZ][TSL][0fx][k%DHZ] [YDZ][WSL][rak](W7
+[6fjSL] ue[TSL][0ak][epj]*[H3afk] [rak][0pj][WOH]70%
+[$SGpj] [Tpj]Q[epj][*OH][QIG][*pj][f!*OSH] [OSL]T[uSL]W[Tuf]0
+[s%IOG] YW[tIG]([uf][YD] [*WTOSuf] SI[rp] pp
+[0r]O--[(r]-Ip Ou
+[*r]-fx GC [6T]-uuIII
+[0ruO][uO] [uO] [uO] O[r(YI][YI] IpO[Tu]
+[*Tru]--[6T]aaaaaff
+[0r][Oa][Oa][Oa] [Ip][uO][Ip][(r][Oa][Oa][Oa][Ia][Ia][uf][uf]
+[*r][Oa][Oa][Oa] [Ip][uO][Ip][6T][Oa][Oa][Oa][Ia][Ia][uf][uf]
+[0r][Oa][Oa][Oa] [Ip][uO][Ip][(r]O uuIO
+[*r]IIIIIuO[6T]OI aa S
+ear T uffDDDDaaa
+r T Y If[Wf]D[rD]D[uD]a[Ia]a
+e r T uffDDDDSaa
+[ra]aTSYaIS[pD]--L 
+[Sx]Hf[HL]SH[fx]H[OZ]D[aL][Dk]ODa[DH]
+[pL]f[Sk][fj]pf[SL]f[uk]f[aj][fH]ufaf
+[Ij]Sp[SG][IG][SH][pj]S[TH]S[OL]S[TH]S[Of]S
+[WD]sOsWs[OG]s[Tf]O[uD]O[TS]O[uSL]O
+[Tfx]SO[SL]TS[Ofx]S[WDZ]Y[rSL][Yak]WY[rOH]Y
+[eSL]u[Tak][upj]eu[TSL]u[0ak]u[rpj][uOH]0uru
+[Qpj]Te[TIG][QIG][TOH][epj]T[*OH]T[WSL]T[*OH]T[Wuf]T
+[%YD]tWt%[tI][WG]t[*uf]T[WYD]T[*TS]TWT
+[*x][Tf][WH][Tf][*x][TZ][WL][Tx][%Z][rD][(Z][rL][%k][rD][(H][rD]
+[6L][eS][0f][eS][6L][ek][0j][eL][3k][Wa][7k][Wj][3H][Wa][7f][Wa]
+[$j][QS][*f][QS][$j][QH][*G][Qj][*H][WS][0L][WS][*L][WS][0f][WS]
+[%G][QO][(s][QO][%G]fD [!%*f] S S O 
+[*WT]-rTu-[%(W]Tru-r
+[60T]rQWu T [30rO] YTu-
+[$*T]-rTu-[*W]Tru-r
+[%QT]rQWu T [r*WO] YTu-
+[uTOS]-aSf-[rWYO]Saf-a
+[euTS]aIOf S [0ruaH] DSf-
+[eQTS]-aSf-[uTO]Saf-a
+SaIOHGSDf D S [SL] 
+[!*HLfx] O[TSL]uW[Tfx]0[k%DHZ] [YSL][Wak]r([WOH]7
+[6fjSL] [uak][epj]T0[eSL]*[H3afk] [rpj][0OH]W70%
+[$SGpj] T[QIG][eIG][*OH][Qpj]*[f!*OSH] [OSL]T[uOH]W[Tuf]0
+[s%IDG] YWt([WIG]8[!*OSuf] [YOD]T[uTS]WT0
+[!*HLfx] O[TSL]uW[Tfx]0[k%DHZ] [YSL][Wak]r([WOH]7
+[6fjSL] [uak][epj]T0[eSL]*[H3afk] [rpj][0OH]W70%
+[$SGpj] T[QIG][eIG][*OH][Qpj]*[f!*OSH] [OSL]T[uOH]W[Tuf]0
+[s%YOD] OtYWt(W8(%% [TOf]G
+f-D-S ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Can you feel my heart (Full)",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 70 -- tempo overides the delay
+
+shared.scr = [[ [as]-a-a-d-s 
+[pa]-a u a-d-s 
+[Oa]-a-a-d-s 
+a a u a auuua-
+[as]-a-a-d-s 
+[pa]-a u a-d-s 
+[ua]-a-a-d-s 
+a a u a auuua-
+[80wtuoa]-[uoa]-[uoa]-[od]-[os] 
+[680euoa]-[oa] u [oa]-[od]-[os] 
+[%WO70ua]-[ua]-[ua]-[ud]-[us] 
+[ua] [ua] u a auuua-
+[80wtuoa]-[uoa]-[uoa]-[od]-[os] 
+[680euoa]-[oa] u [oa]-[od]-[os] 
+[%O370ua]-[ua]-[ua]-[ud]-[us] 
+[ua] [ua] u a auuua-
+[80wa]-[80wa]-[0wtp]-o p o 
+[680]-[680]-[80e]----
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]--[570] 
+[80wa]-[80wa]-[0wtp]-o p o 
+[680]-[680]-[80e]----
+[357a]-[357a]-[570a]----
+[357a]-[357a]-[570] a-s [yoa] 
+[80w]-[80w]-[0wt] [uoa]-[od]-[os] 
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os] 
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37ua] [ua][%37]u [%70a] auuua [579] 
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os] 
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os] 
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37a]-[%37a]-[%70] a-s [yoa] 
+[80wa]-[80wa]-[0wtp]-o p o 
+[680]-[680]-[80e]--o o 
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]----
+[80wa]-[80wa]-[0wtp]-o p-o
+[680o]-[680]-[80e]----
+[357a]-[357a]-[570p]-o a-
+[357]-[357]-[570]-a a a 
+[80wa] a[80w]-[0wt]-a a a 
+[680p] o[680]-[80e]-a a a 
+[357a] a[357]-[570]-a a a 
+[357a] a[357]-[570]----
+[80wa] a[80w]p [0wto] p o--
+[680a] a[680]p [80eo] p--
+[357a] a[357]p [570o] p o--
+[357a]-[357a]-[570] a-s [yoa] 
+[80w]-[80w]-[0wt] [uoa]-[od]-[os] 
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os] 
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37a]-[%37a]-[%70] a-s [yoa] 
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os] 
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os] 
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37a]-[%37a]-[%70] a-s [yoa] 
+[80w]-[80w]-[0wt] [uoa]-[od]-[os] 
+[680uoa]-[680][oa] [80eu] [oa]-[od]-[os] 
+[%O37ua]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37ua] [ua][%37]u [%70a] auuua [579] 
+[680uoa]-[680][uoa] [80e] [uoa]-[od]-[os] 
+[80wuoa]-[80w][oa] [0wtu] [oa]-[od]-[os] 
+[%37uoa]-[%37][ua] [%70] [ua]-[ud]-[us] 
+[%37a]-[%37a]-[%70] a-s [yoa]----
+p--
+a----
+u--
+I--
+o----
+I--
+a----
+u--I--o 
+[ta]-a-a p--o 
+a-a-a p r-o 
+[ua]-a-a p-o-o 
+a-a-a p w-o 
+[ta]-a-a d--s 
+a-a-a p r-o 
+[ua]-a-a p-o-o 
+a-a-a p w-o 
+[80wua]-[ua]-[ua] [up]--o 
+[ua]-[ua]-[ua] [up] [7Q]-o 
+[0wrua]-[ua]-[ua] [up]-[uo]-o 
+[579wyoa]-[yoa]-[yoa] [yp]--o 
+[8wa] 0aw [ta] [wd] 0 8 [0s] 
+[60a] 8a0 [ea] [0d] 8 6 [8o] 
+[37a] 5a7 [0a] [7p] 5o3 [5o] 
+[59a] 7a9 [wa] [9p] 7 5 o 
+[8wua] 0[ua]w [tua] [wup] 0 8 [0o] 
+[60ua] 8[ua]0 [eua] [0up] 8 6 [8o] 
+[37ua] 5[ua]7 [0ua] [7up] 5[uo]3 [5o] 
+[59yoa] 7[yoa]9 [wyoa] [9yp] 7 5 o 
+[8wuoa] 0[uoa]w [tuoa] [wuoad] 0 8 [0s] 
+[60uoa] 8[uoa]0 [euoa] [0uoad] 8 6 [8o] 
+[37ua] 5[ua]7 [0ua] [7up] 5[uo]3 [5o] 
+[59yoa] 7[yoa]9 [wyoa] [9yp]--
+[80wtuoa]-[uoa]-[uoa]-[od]-[os] 
+[680euoa]-[oa] u [oa]--
+[80wtud] o [ud] o [ud] o [ud] o 
+[ud] o [ud] o [ud] o [680eys] o 
+[3570ya] o [ya] o [ya] o [ya] o 
+[579wyp] I [yp] I [yp] I [yp] I 
+[80wtud] o [ud] o [ud] o [ud] o 
+[ud] o [ud] o [ud] o [680eys] o 
+[3570ya] o [ya] o [ya] o [ya] o 
+[357a]-[357a]-[570] a-s [570a] 
+[80wyoa] a[80w]p [0wto] p o--[680uoa]-
+[680][oa] [80eu] [oa]-[od]-[os] [357a] 
+a[357]p [570o] a--[357uoa]-
+[357][oa] [570u] [oa]-[od]-[os] [80wa] 
+a[80w]p [0wto] p o--[680uoa]-
+[680][oa] [80eu] [oa]-[od]-[os] [357a]-
+[357a]-[570a]----[357a]-
+[357a]-[570] a-s [yoa] [80w]-
+[80w]-[0wt] [uoa]-[od]-[os] [357ua] 
+[ua][357]u [570a] auuua ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Rush E",function()
+  -- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = 120 -- tempo overides the delay
+
+shared.scr = [[ u-----
+u-----
+u-----
+u-----
+u--u--
+u--u--
+u-u-u-u-
+u u u u u u u [uf] 
+[0uf] [30fx] [30fx] [30fx] [3x] [3x] [3x] [3x] 
+6----[80]----3----[80]----
+6----[80]----3----[80]----
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] i [80u] Y 
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d 
+[6s] s [80s] s [3s] a [80p] s 
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] u [80u] u 
+[6u] i [80u] Y [3u]-[80p] s 
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l 
+[7k] j [9WH] k [6j] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a 
+[6ep]--3--$5%
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] i [80u] Y 
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d 
+[6s] s [80s] s [3s] a [80p] s 
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u 
+6 u [80u] u [3u] u [80u] u 
+[6u] i [80u] Y [3u]-[80p] s 
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l 
+[7k] j [9WH] k [6j] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a 
+[6ep]--6--78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-6-[0es]-
+[7a]-[9W] P [3a]-[W9s]-
+[7d]-[W9s]-[3a]-[W9d]-
+[18s]-[6p]-[18s]-[30f]-
+[6ej]-f-[6s]-p-78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-[6j]-[0e]-
+7-[qed]-9-[qeg]-
+[%30f]-[18s]-[29d]-[7a]-
+[6p]----[O30uaf]-
+[60epsfj]----
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] u [80u] u 
+[6u] u [80u] u [3u] i [80u] Y 
+[6u]-[80p]-[3s]-[80]-
+[%d] d [90d] d [3d] s [90a] d 
+[6s] s [80s] s [3s] a [80p] s 
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [80u] u [3u] u [80u] u 
+6 u [80u] u [3u] u [80u] u 
+[6u] i [80u] Y [3u]-[80p] s 
+[6f]-[80j]-[3l]-[80]-
+[9z] l [qrk] z [8l] k [0tj] l 
+[7k] j [9WH] k [6j] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a 
+[6ep]--[!@$%^*(QWETYIOP148qtyuiopasdfghjklzxcvbnm?]--
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80]-3-[80]-
+6-[80e]-3-[80e]-
+6-[80e]-3-[80e]-
+6-[80t]-3-[80t]-
+6-[80t]-3-[80t]-
+6-[etu]-3-[etu]-
+6-[etu]-3-[etu]-
+6-[tup]-3-[tup]-
+6-[tus]-3-[tus]-
+[6u]u[etu]u[3u]u[etuf]f
+[6x]x[etuf]f [3u] u [etu] u 
+[6u] u [etu] u [3u] i [etu] Y 
+[6u]-[etup]-[3s]-[etu]-
+[%d] d [W90d] d [3d] s [W90a] d 
+[6s] s [etus] s [3s] a [etup] s 
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [etu] u [3u] u [etu] u 
+6 u [etu] u [3u] u [etu] u 
+[6u] i [etu] Y [3u]-[etup] s 
+[6f]-[etuj]-[3l]-[etu]-
+[9fkz] l [qrk] z [8fjl] k [0tj] l 
+[H7k] j [9WH] k [6fj] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a 
+[6ep]----
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-6-[0es]-
+[7a]-[9W] P [3a]-[W9s]-
+[7d]-[W9s]-[3a]-[W9d]-
+[18s]-[6p]-[18s]-[30f]-
+[6ej]-f-[6s]-p-78*
+[29d]-[qe] S [6d]-[qef]-
+[9g]-[qef]-[6d]-[qeg]-
+[8f]-[0e] d [6s]-[0ed]-
+[8f]-[0e]-[6j]-[0e]-
+7-[qed]-9-[qeg]-
+[%30f]-[18s]-[29d]-[7a]-
+[6p]----[O30uaf]-
+[60epsfj]----
+[6u] u [etu] u [3u] u [etuf] f 
+[6x] x [etuf] f [3u] u [etu] u 
+[6u] u [etu] u [3u] i [etu] Y 
+[6u]-[etup]-[3s]-[etu]-
+[%d] d [W90d] d [3d] s [W90a] d 
+[6s] s [etus] s [3s] a [etup] s 
+[7a] a [(ra] a [$I]-[(ea]-
+[0O]--[30]--$5%
+[6u] u [etu] u [3u] u [etu] u 
+6 u [etu] u [3u] u [etu] u 
+[6u] i [etu] Y [3u]-[etup] s 
+[6f]-[etuj]-[3l]-[etu]-
+[9fkz] l [qrk] z [8fjl] k [0tj] l 
+[H7k] j [9WH] k [6fj] f [8es] p 
+[30g] f [$Qd] s [%Wa] p [30O] a 
+[6ep]----
+[^i] i [ETi] i [4i] i [ETi] i 
+[^i] i [ETi] i [4i] i [ETi] i 
+[^i] i [ETi] i [4i] I [ETi] u 
+[^i]-[iETP]-[4S]-[ETi]-
+[6D] D [qe(D] D [4D] S [(qes] D 
+[^S] S [iETS] S [4S] s [iETP] S 
+[8s] s [0ts] s [5o]-[E0s]-
+[qp]--[4q]--5%6
+[^i] i [ETi] i [4i] i [ETi] i 
+^ i [ETi] i [4i] i [ETi] i 
+[^i] I [ETi] u [4i]-[iETP] S 
+[^g]-[iETJ]-[4L]-[ETi]-
+[(Z] L [Qtl] Z [*L] l [qTJ] L 
+[8l] J [(Wj] l [^J] g [*ES] P 
+[4qG] g [5wD] S [6es] P [4qp] s 
+[^EP]----
+[sYIZ] L l Z [iTPL] l J L 
+[Ytpl] J j l [ETPJ] g S P 
+[4qG] g [5wD] S [6es] P [4qp] s 
+[^EP]--[g^SJ] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Button = Section.NewButton("Golden Wind",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+shared.delay = nil-- delay overides the ftime
+shared.tempo = 60 -- tempo overides the delay
+
+shared.scr = [[ 7 7 76 7 9 7 $6 
+7 7 76 7 q 0 96 
+7 7 76 7 9 7 $6 
+7 7 7679 q 0 96 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r][6e] [7r] [qi] [0u] [9y][6e] 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r] [6e][7r]-d I p 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]e [7r] [7i] [7u] [7y]e 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]er[7y] [7i] [7u] [7y]e 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra] [ep][ra]k-[ak]Sdf
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ[afj]0 % %[H6afk] ^ 
+[7afH] 9[adG]0q Q e Qe E 
+r 7 % W 6e6 [^a]S[Ed]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[Hrafk] E eQ[afj]0 % %[6afH] ^ 
+[7adG] 9 0q Q e Qe E 
+r 7 % W 6e6 [^d]S[Ea] 
+[I7yp]-[QIrya]-[QIrya]-I p a 
+[7yIS]-[QIryp]-[QIrya]--dSa 
+[I7yp]-[QIrya]-[QIrya]-I S d 
+[7yIS]-[QIryp]-[QTru]--dSa 
+[I7yp]-[I7ya]-[QIrya]-[7I] [Qrp] [7a] 
+[7yIS]-[I7yp]-[QIrya]-7 [Qrd]S[7a] 
+[6ep][29yd][$QIG][30uf][@(YD][7ra][6epj][%WOH][$QIG][29yd][!*TS][7ra]
+[6ep][7ra] [6ep][7ra] [6ep][7ra] [6ep][7ra] [6ep][7ra][29yd] 
+[7adIG]-[Qr] [%iadg]--[9W] df
+[!*iadg]-[wrf]-d [uo$S]-[*0d]-f 
+[7adIG]-[Qr] [%adgk]--[W9a] S 
+[!*uad]-[wrf]-d [uo$S]-[*0j]-h 
+[7adIG]-[Qr] [%iadg]--[9W] df
+[!*iadg]-[wrf]-d [uo$S]-[*0d]-f 
+[7adIG]-[Qr] [%adgk]--[W9k] L 
+[!*fhz]-[wrh]-G [$iadg]-[*0z]-J 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep][ra][7yd] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra] [ep][ra]k-[Ik]dG 
+[7dIG] 9 0q Q efQe [Ed] 
+[raf] ESeQp0 %I%[6a] [^I]u
+7y[9r] [0y]qiQu[ey] Qe E 
+r [%a] 6[^p] [7I]p%a%[6d] [^f] 
+[7dIG] 9 [0a][qd]G[Qj] e Qe E 
+[rf]d[Ea] [ed]Qf0 %y[%d][6y]d[^y]d
+[7y]d9y[0d]qy[Qd] [ef] [Qd][ef]d[Ea] 
+[rd]a7 [%a] W 6e6 ^ [Ea]G
+[G7aj] 9 [G0aj]q Q e Qe E 
+r E eQ[afH]0 % %6G^f
+[7afH] 9[adG]0q Q e Qe [Ey]d
+[ry]d[%y]d[6y][^d]y[7d] [%yd] [%yd][6yd] [^yd] 
+[G7dkz] 9[Gdkz]0q Q e Q[ek] [Ej] 
+[rf]d[Ea] [ep]Qa0 % %6 [^a] 
+[7yad] 9 [0uaf]q QGejQ[ek] [EGdkz] 
+r 7 % W 6e6 ^ E 
+[7f] 9 0qS[Qd]fe Qe [ES]d
+[rf] [Ed] [eS][Qd] [0S] % %6 [^S]d
+[7S] [9a] [0p]qaQ e Q[ep] [Eu] 
+[ry] % [6T][^y] [7T] % %6 ^ 
+[7r] [9y] [0u]qiQue Q[ey]r[Ey] 
+[rI] [Ep]ae[Qd]a0d[%a] [%d][6a] ^ 
+[7G]d[9S]a[0f][qS]p[Qa]a[eO] [QT][er]T[Er]O
+[rp] [7a] [%f]S[Wk]j[6H]e[6G] [^j]k[Ek]L
+[7z] 9 0q Q e Q[ez] [Ek] 
+[rz] E eQ 0k% %6 [^L]z
+[7z] [9L]z[0L]qk[QL]kej[Qk][ej] [EH]j
+[rH] [%G]H[6f]^G[7f]d%f[%d][6S]d[^S]a
+[7a] 9 0qp[QI]ieayQ[eu]IEy
+[ru] [EI] eQ 0 % %6 ^ 
+7 9 [0r]q Q e Qe E 
+ry[7I]a[%d]G[Wk]z[6C][ez][6k]G[^d]a[EI] 
+[%WIDG]--[$QSuf]----
+[$QSuf]--[30yad]----
+[*TGpj]--[7rfOH]----
+[7rfOH]--[6eofh]----
+[5afhk]-[29]-[5w]-[7r]-
+[5oaf]-[29]-[5woaG]-[7r]-
+[$SGk]-[!*]-[$Q]-[7r]-
+[$SGJ]-[!*]-[$Q]-[^E]-
+[7r]-[^T]-[6y]-[%I]-[5i] I 
+[7ra]-[^TS]-[6yd]-[%YD]-[5IG][ig][IG] 
+[7ak]-[^SL]-[6dz]-[%GC]-[5gc][fx][gc] 
+[k$GC]----
+J----aSdf
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ[afj]0 % %[H6afk] ^ 
+[7afH] 9[adG]0q Q e Qe E 
+r 7 % W 6e6 [^a]S[Ed]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[rafH] E eQ 0 %G%6 [^f] 
+[7adG] 9 0q Q e Qe E 
+r % 6^ 7 % %[6a]S[^d]f
+[7adG] 9 0q Q eaQ[ed] [Ej] 
+[Hrafk] E eQ[afj]0 % %[6afH] ^ 
+[7adG] 9 0q Q e Qe E 
+r 7 % W 6e6 [^d]S[Ea] 
+[I7yp]-[QIrya]-[QIrya]-I p a 
+[7yIS]-[QIryp]-[QIrya]--dSa 
+[I7yp]-[QIrya]-[QIrya]-I S d 
+[7yIS]-[QIryp]-[QTru]--dSa 
+[I7yp]-[I7ya]-[QIrya]-[7I] [Qrp] [7a] 
+[7yIS]-[I7yp]-[QIrya]-7 [Qrd]S[7a] 
+[6pj][29dz][$QGC][30fx][@(DZ][7ak][6ejb][%WHV][$QGC][29dz][!*SL][7ak]
+[6pj][7ak] [6pj][7ak] [6pj][7ak] [6pj][7ak] [6pj][7ak][29dz] 
+7----
+7-7--77[29][29][29] 
+[7radIG]--[%Wiadg]--df
+[*Tiadg]-f-d [uo$QS]-d-f 
+[7radIG]--[%Wadgk]--a S 
+[*Tuad]-f-d [uo$QS]-j-h 
+[7radIG]--[%Wiadg]--df
+[*Tiadg]-f-d [uo$QS]-d-f 
+[7radIG]--[%Wadgk]--k L 
+[*Tfhz]-h-G [$Qiadg]-z-x 
+[7kzGC]-[Qr] [%gkzc]--[9W] zx
+[!*gkzc]-[wrx]-z [fh$L]-[*0z]-x 
+[7kzGC]-[Qr] [%kzcn]--[W9k] L 
+[!*fkz]-[wrx]-z [fh$L]-[*0b]-v 
+[7kzGC]-[Qr] [%gkzc]--[9W] zx
+[!*gkzc]-[wrx]-z [fh$L]-[*0z]-x 
+[7kzGC]-[Qr] [%kzcn]--[W9n] L 
+[!*zxv]-[wrv]-C [$gkzc]-[*0z]-B 
+[C7kzn] 7 76 7 9 7 $6 
+7 7 76 7 q 0 96 
+7 7 76 7 9 7 $6 
+7 7 7679 q 0 96 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r][6e] [7r] [qi] [0u] [9y][6e] 
+[7r] [7r] [7r][6e] [7r] [9y] [7r] [$Q][6e] 
+[7r] [7r] [7r] [6e][7r]-d I p 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]e [7r] [7i] [7u] [7y]e 
+[7r] [7r] [7r]e [7r] [7y] [7r] [7Q]e 
+[7r] [7r] [7r]er[7y] [7i] [7u] [7y]e 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7ig] [7uf] [7yd][ep] 
+[7ra] [7ra] [7ra][ep] [7ra] [7yd] [7ra] [7QI][ep] 
+[7ra] [7ra] [7ra][ep][ra][7yd] [7ig] [7uf] [7yd][ep]----
+[7upTS] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end) 
+local Tab = Window.NewTab("Discord")
+local Section = Tab.NewSection("Discord")
+
+local Button = Section.NewButton("Copy Discord Link",function()
+  setclipboard("https://discord.gg/QQWjnPNP")
+  
+  end) 
+    
+local Tab = Window.NewTab("Settings")
+local Section = Tab.NewSection("Settings")
+
+local Button = Section.NewButton("FPS booster",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/FPSBOOST/main/Part%20of%20FPS.lua", true))()
+  
+    end)
+
+local Button = Section.NewButton("Auto Piano Sheet UI",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sheet/main/Sheet%20for%20Piano"))()
+
+end)
+
+local Tab = Window.NewTab("Stop piano")
+local Section = Tab.NewSection("Stop piano")
+local Button = Section.NewButton("Stop",function()
+-- Sheet for you
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ e ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/PianoHubV2/main/PandaExploits", true))()
+
+end)
+
+local Tab = Window.NewTab("Credits")
+local Section = Tab.NewSection("Script made by:")
+local Section = Tab.NewSection("PandaExploits")
+local Section = Tab.NewSection("UsBc#3024")
+local Section = Tab.NewSection("      ")
+local Section = Tab.NewSection("Credits")
+local Section = Tab.NewSection("Nugga - Owns Sheet UI")
+local Section = Tab.NewSection("JxcExploitss - AsciiKeys")
+local Section = Tab.NewSection("Salfin - Ocerium UI Lib")
+
+local Tab = Window.NewTab("Info")
+local Section = Tab.NewSection("UPDATES:")
+local Section = Tab.NewSection("-Removed some notes")
+local Section = Tab.NewSection("-FPS boost")
+local Section = Tab.NewSection("-New Ocerium UI")
+local Section = Tab.NewSection("-Added Open/Close button for Android User")
+local Section = Tab.NewSection("-Fixed the problem when closing the ui piano sound changes")
+local Section = Tab.NewSection("-Removed some unnecessary codes")
+local Section = Tab.NewSection("       ")
+local Section = Tab.NewSection("Whats New?")
+local Section = Tab.NewSection("-New Nostalgia Songs")
+local Section = Tab.NewSection("-New Modern songs")
+local Section = Tab.NewSection("-Added some requested songs")
+local Section = Tab.NewSection("-Added FPS boost to Settings")
